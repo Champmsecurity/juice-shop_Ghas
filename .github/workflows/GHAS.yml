@@ -34,11 +34,12 @@ jobs:
       - name: Run Semgrep
         uses: returntocorp/semgrep-action@fcd5ab7459e8d91cb1777481980d1b18b4fc6735
         with:
-          config: auto
-          sarif: true
-          output: semgrep.sarif
+          Config: auto
+          generateSarif: "1"
         continue-on-error: true
-      - name: Upload SARIF to GitHub Code Scanning
+
+      - name: Upload SARIF file
+        if: always()
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: semgrep.sarif
