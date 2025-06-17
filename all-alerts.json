@@ -3,7 +3,7 @@
     {
       "number": 121,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/121",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/121",
       "state": "open",
@@ -34,11 +34,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected a hardcoded hmac key. Avoid hardcoding secrets and consider using an alternate option such as reading the secret from a config file or using an environment variable."
         },
@@ -57,7 +57,7 @@
     {
       "number": 120,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/120",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/120",
       "state": "open",
@@ -88,11 +88,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected a hardcoded hmac key. Avoid hardcoding secrets and consider using an alternate option such as reading the secret from a config file or using an environment variable."
         },
@@ -111,7 +111,7 @@
     {
       "number": 119,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/119",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/119",
       "state": "open",
@@ -142,11 +142,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected usage of the `notevil` package, which is unmaintained and has vulnerabilities. Using any sort of `eval()` functionality can be very dangerous, but if you must, the `eval` package is an up to date alternative. Be sure that only trusted input reaches an `eval()` function."
         },
@@ -165,7 +165,7 @@
     {
       "number": 118,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/118",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/118",
       "state": "open",
@@ -197,11 +197,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Directory listing/indexing is enabled, which may lead to disclosure of sensitive directories and files. It is recommended to disable directory listing unless it is a public resource. If you need directory listing, ensure that sensitive files are inaccessible when querying the resource."
         },
@@ -220,7 +220,7 @@
     {
       "number": 117,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/117",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/117",
       "state": "open",
@@ -252,11 +252,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Directory listing/indexing is enabled, which may lead to disclosure of sensitive directories and files. It is recommended to disable directory listing unless it is a public resource. If you need directory listing, ensure that sensitive files are inaccessible when querying the resource."
         },
@@ -275,7 +275,7 @@
     {
       "number": 116,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/116",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/116",
       "state": "open",
@@ -307,11 +307,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Directory listing/indexing is enabled, which may lead to disclosure of sensitive directories and files. It is recommended to disable directory listing unless it is a public resource. If you need directory listing, ensure that sensitive files are inaccessible when querying the resource."
         },
@@ -330,7 +330,7 @@
     {
       "number": 115,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/115",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/115",
       "state": "open",
@@ -362,11 +362,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Directory listing/indexing is enabled, which may lead to disclosure of sensitive directories and files. It is recommended to disable directory listing unless it is a public resource. If you need directory listing, ensure that sensitive files are inaccessible when querying the resource."
         },
@@ -385,7 +385,7 @@
     {
       "number": 114,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/114",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/114",
       "state": "open",
@@ -417,11 +417,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected a call to `replaceAll()` in an attempt to HTML escape the string `tableData[i].description.replaceAll('<', '&lt;')`. Manually sanitizing input through a manually built list can be circumvented in many situations, and it's better to use a well known sanitization library such as `sanitize-html` or `DOMPurify`."
         },
@@ -440,7 +440,7 @@
     {
       "number": 113,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/113",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/113",
       "state": "open",
@@ -472,11 +472,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected a call to `replaceAll()` in an attempt to HTML escape the string `tableData[i].description`. Manually sanitizing input through a manually built list can be circumvented in many situations, and it's better to use a well known sanitization library such as `sanitize-html` or `DOMPurify`."
         },
@@ -495,7 +495,7 @@
     {
       "number": 112,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/112",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/112",
       "state": "open",
@@ -527,11 +527,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected a sequelize statement that is tainted by user-input. This could lead to SQL injection if the variable is user-controlled and is not properly sanitized. In order to prevent SQL injection, it is recommended to use parameterized queries or prepared statements."
         },
@@ -550,7 +550,7 @@
     {
       "number": 111,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/111",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/111",
       "state": "open",
@@ -582,11 +582,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected a sequelize statement that is tainted by user-input. This could lead to SQL injection if the variable is user-controlled and is not properly sanitized. In order to prevent SQL injection, it is recommended to use parameterized queries or prepared statements."
         },
@@ -605,7 +605,7 @@
     {
       "number": 110,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/110",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/110",
       "state": "open",
@@ -637,11 +637,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected a sequelize statement that is tainted by user-input. This could lead to SQL injection if the variable is user-controlled and is not properly sanitized. In order to prevent SQL injection, it is recommended to use parameterized queries or prepared statements."
         },
@@ -660,7 +660,7 @@
     {
       "number": 109,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/109",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/109",
       "state": "open",
@@ -692,11 +692,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected a sequelize statement that is tainted by user-input. This could lead to SQL injection if the variable is user-controlled and is not properly sanitized. In order to prevent SQL injection, it is recommended to use parameterized queries or prepared statements."
         },
@@ -715,7 +715,7 @@
     {
       "number": 108,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/108",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/108",
       "state": "open",
@@ -747,11 +747,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected a sequelize statement that is tainted by user-input. This could lead to SQL injection if the variable is user-controlled and is not properly sanitized. In order to prevent SQL injection, it is recommended to use parameterized queries or prepared statements."
         },
@@ -770,7 +770,7 @@
     {
       "number": 107,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/107",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/107",
       "state": "open",
@@ -802,11 +802,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected a sequelize statement that is tainted by user-input. This could lead to SQL injection if the variable is user-controlled and is not properly sanitized. In order to prevent SQL injection, it is recommended to use parameterized queries or prepared statements."
         },
@@ -825,7 +825,7 @@
     {
       "number": 106,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/106",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/106",
       "state": "open",
@@ -856,11 +856,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "The application processes user-input, this is passed to res.sendFile which can allow an attacker to arbitrarily read files on the system through path traversal. It is recommended to perform input validation in addition to canonicalizing the path. This allows you to validate the path against the intended directory it should be accessing."
         },
@@ -879,7 +879,7 @@
     {
       "number": 105,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/105",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/105",
       "state": "open",
@@ -910,11 +910,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "The application processes user-input, this is passed to res.sendFile which can allow an attacker to arbitrarily read files on the system through path traversal. It is recommended to perform input validation in addition to canonicalizing the path. This allows you to validate the path against the intended directory it should be accessing."
         },
@@ -933,7 +933,7 @@
     {
       "number": 104,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/104",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/104",
       "state": "open",
@@ -964,11 +964,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "The application processes user-input, this is passed to res.sendFile which can allow an attacker to arbitrarily read files on the system through path traversal. It is recommended to perform input validation in addition to canonicalizing the path. This allows you to validate the path against the intended directory it should be accessing."
         },
@@ -987,7 +987,7 @@
     {
       "number": 103,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/103",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/103",
       "state": "open",
@@ -1018,11 +1018,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "The application processes user-input, this is passed to res.sendFile which can allow an attacker to arbitrarily read files on the system through path traversal. It is recommended to perform input validation in addition to canonicalizing the path. This allows you to validate the path against the intended directory it should be accessing."
         },
@@ -1041,7 +1041,7 @@
     {
       "number": 102,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/102",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/102",
       "state": "open",
@@ -1072,11 +1072,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "The application redirects to a URL specified by user-supplied input `query` that is not validated. This could redirect users to malicious locations. Consider using an allow-list approach to validate URLs, or warn users they are being redirected to a third-party website."
         },
@@ -1095,7 +1095,7 @@
     {
       "number": 101,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/101",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/101",
       "state": "open",
@@ -1127,11 +1127,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected use of parseXml() function with the `noent` field set to `true`. This can lead to an XML External Entities (XXE) attack if untrusted data is passed into it."
         },
@@ -1150,7 +1150,7 @@
     {
       "number": 100,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/100",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/100",
       "state": "open",
@@ -1182,11 +1182,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "User data flows into the host portion of this manually-constructed HTML. This can introduce a Cross-Site-Scripting (XSS) vulnerability if this comes from user-provided input. Consider using a sanitization library such as DOMPurify to sanitize the HTML within."
         },
@@ -1205,7 +1205,7 @@
     {
       "number": 99,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/99",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/99",
       "state": "open",
@@ -1236,11 +1236,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This tag is missing an 'integrity' subresource integrity attribute. The 'integrity' attribute allows for the browser to verify that externally hosted files (for example from a CDN) are delivered without unexpected manipulation. Without this attribute, if an attacker can modify the externally hosted resource, this could lead to XSS and other types of attacks. To prevent this, include the base64-encoded cryptographic hash of the resource (file) you’re telling the browser to fetch in the 'integrity' attribute for all externally hosted files."
         },
@@ -1259,7 +1259,7 @@
     {
       "number": 98,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/98",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/98",
       "state": "open",
@@ -1290,11 +1290,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This tag is missing an 'integrity' subresource integrity attribute. The 'integrity' attribute allows for the browser to verify that externally hosted files (for example from a CDN) are delivered without unexpected manipulation. Without this attribute, if an attacker can modify the externally hosted resource, this could lead to XSS and other types of attacks. To prevent this, include the base64-encoded cryptographic hash of the resource (file) you’re telling the browser to fetch in the 'integrity' attribute for all externally hosted files."
         },
@@ -1313,7 +1313,7 @@
     {
       "number": 97,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/97",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/97",
       "state": "open",
@@ -1344,11 +1344,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This tag is missing an 'integrity' subresource integrity attribute. The 'integrity' attribute allows for the browser to verify that externally hosted files (for example from a CDN) are delivered without unexpected manipulation. Without this attribute, if an attacker can modify the externally hosted resource, this could lead to XSS and other types of attacks. To prevent this, include the base64-encoded cryptographic hash of the resource (file) you’re telling the browser to fetch in the 'integrity' attribute for all externally hosted files."
         },
@@ -1367,7 +1367,7 @@
     {
       "number": 96,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/96",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/96",
       "state": "open",
@@ -1398,11 +1398,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected string concatenation with a non-literal variable in a util.format / console.log function. If an attacker injects a format specifier in the string, it will forge the log message. Try to use constant values for the format string."
         },
@@ -1421,7 +1421,7 @@
     {
       "number": 95,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/95",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/95",
       "state": "open",
@@ -1452,11 +1452,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Possibility of prototype polluting function detected. By adding or modifying attributes of an object prototype, it is possible to create attributes that exist on every object, or replace critical attributes with malicious ones. This can be problematic if the software depends on existence or non-existence of certain attributes, or uses pre-defined attributes of object prototype (such as hasOwnProperty, toString or valueOf). Possible mitigations might be: freezing the object prototype, using an object without prototypes (via Object.create(null) ), blocking modifications of attributes that resolve to object prototype, using Map instead of object."
         },
@@ -1475,7 +1475,7 @@
     {
       "number": 94,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/94",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/94",
       "state": "open",
@@ -1506,11 +1506,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Found data from an Express or Next web request flowing to `eval`. If this data is user-controllable this can lead to execution of arbitrary system commands in the context of your application process. Avoid `eval` whenever possible."
         },
@@ -1529,7 +1529,7 @@
     {
       "number": 93,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/93",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/93",
       "state": "open",
@@ -1560,11 +1560,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "JWT token detected"
         },
@@ -1585,7 +1585,7 @@
     {
       "number": 92,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/92",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/92",
       "state": "open",
@@ -1616,11 +1616,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "JWT token detected"
         },
@@ -1641,7 +1641,7 @@
     {
       "number": 91,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/91",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/91",
       "state": "open",
@@ -1672,11 +1672,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "JWT token detected"
         },
@@ -1697,7 +1697,7 @@
     {
       "number": 90,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/90",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/90",
       "state": "open",
@@ -1729,11 +1729,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "RegExp() called with a `challengeKey` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
         },
@@ -1752,7 +1752,7 @@
     {
       "number": 89,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/89",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/89",
       "state": "open",
@@ -1784,11 +1784,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "RegExp() called with a `challengeKey` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
         },
@@ -1807,7 +1807,7 @@
     {
       "number": 88,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/88",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/88",
       "state": "open",
@@ -1839,11 +1839,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Cannot determine what 'subs' is and it is used with a '<script>' tag. This could be susceptible to cross-site scripting (XSS). Ensure 'subs' is not externally controlled, or sanitize this data."
         },
@@ -1862,7 +1862,7 @@
     {
       "number": 87,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/87",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/87",
       "state": "open",
@@ -1893,11 +1893,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "A hard-coded credential was detected. It is not recommended to store credentials in source-code, as this risks secrets being leaked and used by either an internal or external malicious adversary. It is recommended to use environment variables to securely provide credentials or retrieve credentials from a secure vault or HSM (Hardware Security Module)."
         },
@@ -1916,7 +1916,7 @@
     {
       "number": 86,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/86",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/86",
       "state": "open",
@@ -1948,11 +1948,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected an explicit unescape in a Pug template, using either '!=' or '!{...}'. If external data can reach these locations, your application is exposed to a cross-site scripting (XSS) vulnerability. If you must do this, ensure no external data can reach this location."
         },
@@ -1971,7 +1971,7 @@
     {
       "number": 85,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/85",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/85",
       "state": "open",
@@ -2003,11 +2003,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "User controlled data in methods like `innerHTML`, `outerHTML` or `document.write` is an anti-pattern that can lead to XSS vulnerabilities"
         },
@@ -2026,7 +2026,7 @@
     {
       "number": 84,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/84",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/84",
       "state": "open",
@@ -2058,11 +2058,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "User controlled data in methods like `innerHTML`, `outerHTML` or `document.write` is an anti-pattern that can lead to XSS vulnerabilities"
         },
@@ -2081,7 +2081,7 @@
     {
       "number": 83,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/83",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/83",
       "state": "open",
@@ -2112,11 +2112,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
         },
@@ -2135,7 +2135,7 @@
     {
       "number": 82,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/82",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/82",
       "state": "open",
@@ -2166,11 +2166,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
         },
@@ -2189,7 +2189,7 @@
     {
       "number": 81,
       "created_at": "2025-06-17T09:31:05Z",
-      "updated_at": "2025-06-17T10:09:43Z",
+      "updated_at": "2025-06-17T17:39:06Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/81",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/81",
       "state": "open",
@@ -2220,11 +2220,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:semgrep",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Generic Secret detected"
         },
@@ -2243,7 +2243,7 @@
     {
       "number": 80,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/80",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/80",
       "state": "open",
@@ -2272,11 +2272,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Route handler for GET requests uses query parameter as sensitive data."
         },
@@ -2295,7 +2295,7 @@
     {
       "number": 79,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/79",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/79",
       "state": "open",
@@ -2324,11 +2324,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Route handler for GET requests uses query parameter as sensitive data."
         },
@@ -2347,7 +2347,7 @@
     {
       "number": 78,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/78",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/78",
       "state": "open",
@@ -2376,11 +2376,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Route handler for GET requests uses query parameter as sensitive data."
         },
@@ -2399,7 +2399,7 @@
     {
       "number": 77,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/77",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/77",
       "state": "open",
@@ -2430,11 +2430,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This query object depends on a user-provided value.\nThis query object depends on a user-provided value."
         },
@@ -2453,7 +2453,7 @@
     {
       "number": 76,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/76",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/76",
       "state": "open",
@@ -2484,11 +2484,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This query string depends on a user-provided value."
         },
@@ -2507,7 +2507,7 @@
     {
       "number": 75,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/75",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/75",
       "state": "open",
@@ -2538,11 +2538,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This query string depends on a user-provided value.\nThis query string depends on a user-provided value."
         },
@@ -2561,7 +2561,7 @@
     {
       "number": 74,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/74",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/74",
       "state": "open",
@@ -2592,11 +2592,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This query object depends on a user-provided value.\nThis query object depends on a user-provided value."
         },
@@ -2615,7 +2615,7 @@
     {
       "number": 73,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/73",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/73",
       "state": "open",
@@ -2646,11 +2646,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This query object depends on a user-provided value.\nThis query object depends on a user-provided value."
         },
@@ -2669,7 +2669,7 @@
     {
       "number": 72,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/72",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/72",
       "state": "open",
@@ -2700,11 +2700,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This query object depends on a user-provided value.\nThis query object depends on a user-provided value."
         },
@@ -2723,7 +2723,7 @@
     {
       "number": 71,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/71",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/71",
       "state": "open",
@@ -2754,11 +2754,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This query object depends on a user-provided value.\nThis query object depends on a user-provided value."
         },
@@ -2777,7 +2777,7 @@
     {
       "number": 70,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/70",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/70",
       "state": "open",
@@ -2811,11 +2811,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This assignment may alter Object.prototype if a malicious '__proto__' string is injected from user controlled input.\nThis assignment may alter Object.prototype if a malicious '__proto__' string is injected from user controlled input."
         },
@@ -2834,7 +2834,7 @@
     {
       "number": 69,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/69",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/69",
       "state": "open",
@@ -2863,11 +2863,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Password from an access to password is hashed insecurely.\nPassword from an access to password is hashed insecurely.\nPassword from an access to clearTextPassword is hashed insecurely.\nPassword from an access to password is hashed insecurely.\nPassword from an access to password is hashed insecurely.\nPassword from an access to currentPassword is hashed insecurely.\nPassword from an access to currentPassword is hashed insecurely.\nPassword from an access to password is hashed insecurely."
         },
@@ -2886,7 +2886,7 @@
     {
       "number": 68,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/68",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/68",
       "state": "open",
@@ -2915,11 +2915,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This cookie middleware is serving a request handler without CSRF protection.\nThis cookie middleware is serving a request handler without CSRF protection.\nThis cookie middleware is serving a request handler without CSRF protection.\nThis cookie middleware is serving a request handler without CSRF protection.\nThis cookie middleware is serving a request handler without CSRF protection."
         },
@@ -2938,7 +2938,7 @@
     {
       "number": 67,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/67",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/67",
       "state": "open",
@@ -2967,11 +2967,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Untrusted URL redirection depends on a user-provided value."
         },
@@ -2990,7 +2990,7 @@
     {
       "number": 66,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/66",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/66",
       "state": "open",
@@ -3020,11 +3020,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Cross-site scripting vulnerability due to user-provided value."
         },
@@ -3043,7 +3043,7 @@
     {
       "number": 65,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/65",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/65",
       "state": "open",
@@ -3074,11 +3074,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited.\nThis route handler performs a file system access, but is not rate-limited."
         },
@@ -3097,7 +3097,7 @@
     {
       "number": 64,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/64",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/64",
       "state": "open",
@@ -3128,11 +3128,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited.\nThis route handler performs a file system access, but is not rate-limited."
         },
@@ -3151,7 +3151,7 @@
     {
       "number": 63,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/63",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/63",
       "state": "open",
@@ -3182,11 +3182,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -3205,7 +3205,7 @@
     {
       "number": 62,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/62",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/62",
       "state": "open",
@@ -3236,11 +3236,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -3259,7 +3259,7 @@
     {
       "number": 61,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/61",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/61",
       "state": "open",
@@ -3290,11 +3290,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -3313,7 +3313,7 @@
     {
       "number": 60,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/60",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/60",
       "state": "open",
@@ -3344,11 +3344,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited.\nThis route handler performs a file system access, but is not rate-limited.\nThis route handler performs a file system access, but is not rate-limited.\nThis route handler performs a file system access, but is not rate-limited.\nThis route handler performs a file system access, but is not rate-limited."
         },
@@ -3367,7 +3367,7 @@
     {
       "number": 59,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/59",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/59",
       "state": "open",
@@ -3398,11 +3398,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -3421,7 +3421,7 @@
     {
       "number": 58,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/58",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/58",
       "state": "open",
@@ -3452,11 +3452,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -3475,7 +3475,7 @@
     {
       "number": 57,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/57",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/57",
       "state": "open",
@@ -3506,11 +3506,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -3529,7 +3529,7 @@
     {
       "number": 56,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/56",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/56",
       "state": "open",
@@ -3560,11 +3560,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -3583,7 +3583,7 @@
     {
       "number": 55,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/55",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/55",
       "state": "open",
@@ -3614,11 +3614,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited.\nThis route handler performs a database access, but is not rate-limited.\nThis route handler performs a database access, but is not rate-limited.\nThis route handler performs a database access, but is not rate-limited."
         },
@@ -3637,7 +3637,7 @@
     {
       "number": 54,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/54",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/54",
       "state": "open",
@@ -3668,11 +3668,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -3691,7 +3691,7 @@
     {
       "number": 53,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/53",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/53",
       "state": "open",
@@ -3722,11 +3722,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -3745,7 +3745,7 @@
     {
       "number": 52,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/52",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/52",
       "state": "open",
@@ -3776,11 +3776,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -3799,7 +3799,7 @@
     {
       "number": 51,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/51",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/51",
       "state": "open",
@@ -3830,11 +3830,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -3853,7 +3853,7 @@
     {
       "number": 50,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/50",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/50",
       "state": "open",
@@ -3884,11 +3884,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -3907,7 +3907,7 @@
     {
       "number": 49,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/49",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/49",
       "state": "open",
@@ -3938,11 +3938,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -3961,7 +3961,7 @@
     {
       "number": 48,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/48",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/48",
       "state": "open",
@@ -3992,11 +3992,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -4015,7 +4015,7 @@
     {
       "number": 47,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/47",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/47",
       "state": "open",
@@ -4046,11 +4046,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -4069,7 +4069,7 @@
     {
       "number": 46,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/46",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/46",
       "state": "open",
@@ -4100,11 +4100,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -4123,7 +4123,7 @@
     {
       "number": 45,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/45",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/45",
       "state": "open",
@@ -4154,11 +4154,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -4177,7 +4177,7 @@
     {
       "number": 44,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/44",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/44",
       "state": "open",
@@ -4208,11 +4208,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -4231,7 +4231,7 @@
     {
       "number": 43,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/43",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/43",
       "state": "open",
@@ -4262,11 +4262,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -4285,7 +4285,7 @@
     {
       "number": 42,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/42",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/42",
       "state": "open",
@@ -4316,11 +4316,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -4339,7 +4339,7 @@
     {
       "number": 41,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/41",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/41",
       "state": "open",
@@ -4370,11 +4370,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -4393,7 +4393,7 @@
     {
       "number": 40,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/40",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/40",
       "state": "open",
@@ -4424,11 +4424,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -4447,7 +4447,7 @@
     {
       "number": 39,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/39",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/39",
       "state": "open",
@@ -4478,11 +4478,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -4501,7 +4501,7 @@
     {
       "number": 38,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/38",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/38",
       "state": "open",
@@ -4532,11 +4532,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -4555,7 +4555,7 @@
     {
       "number": 37,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/37",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/37",
       "state": "open",
@@ -4586,11 +4586,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -4609,7 +4609,7 @@
     {
       "number": 36,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/36",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/36",
       "state": "open",
@@ -4640,11 +4640,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -4663,7 +4663,7 @@
     {
       "number": 35,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/35",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/35",
       "state": "open",
@@ -4694,11 +4694,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -4717,7 +4717,7 @@
     {
       "number": 34,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/34",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/34",
       "state": "open",
@@ -4748,11 +4748,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -4771,7 +4771,7 @@
     {
       "number": 33,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/33",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/33",
       "state": "open",
@@ -4802,11 +4802,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -4825,7 +4825,7 @@
     {
       "number": 32,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/32",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/32",
       "state": "open",
@@ -4856,11 +4856,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -4879,7 +4879,7 @@
     {
       "number": 31,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/31",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/31",
       "state": "open",
@@ -4910,11 +4910,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -4933,7 +4933,7 @@
     {
       "number": 30,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/30",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/30",
       "state": "open",
@@ -4962,11 +4962,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "The URL of this request depends on a user-provided value."
         },
@@ -4985,7 +4985,7 @@
     {
       "number": 29,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/29",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/29",
       "state": "open",
@@ -5014,11 +5014,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Script loaded from content delivery network with no integrity check."
         },
@@ -5037,7 +5037,7 @@
     {
       "number": 28,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/28",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/28",
       "state": "open",
@@ -5066,11 +5066,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Script loaded from content delivery network with no integrity check."
         },
@@ -5089,7 +5089,7 @@
     {
       "number": 27,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/27",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/27",
       "state": "open",
@@ -5118,11 +5118,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This uses a cryptographically insecure random number generated at Math.random() in a security context."
         },
@@ -5141,7 +5141,7 @@
     {
       "number": 26,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/26",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/26",
       "state": "open",
@@ -5171,11 +5171,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Template object depends on a user-provided value.\nTemplate object depends on a user-provided value."
         },
@@ -5194,7 +5194,7 @@
     {
       "number": 25,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/25",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/25",
       "state": "open",
@@ -5224,11 +5224,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Template object depends on a user-provided value.\nTemplate object depends on a user-provided value."
         },
@@ -5247,7 +5247,7 @@
     {
       "number": 24,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/24",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/24",
       "state": "open",
@@ -5280,11 +5280,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5303,7 +5303,7 @@
     {
       "number": 23,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/23",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/23",
       "state": "open",
@@ -5336,11 +5336,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5359,7 +5359,7 @@
     {
       "number": 22,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/22",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/22",
       "state": "open",
@@ -5392,11 +5392,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5415,7 +5415,7 @@
     {
       "number": 21,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/21",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/21",
       "state": "open",
@@ -5448,11 +5448,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5471,7 +5471,7 @@
     {
       "number": 20,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/20",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/20",
       "state": "open",
@@ -5504,11 +5504,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5527,7 +5527,7 @@
     {
       "number": 19,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/19",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/19",
       "state": "open",
@@ -5560,11 +5560,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5583,7 +5583,7 @@
     {
       "number": 18,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/18",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/18",
       "state": "open",
@@ -5616,11 +5616,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5639,7 +5639,7 @@
     {
       "number": 17,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/17",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/17",
       "state": "open",
@@ -5672,11 +5672,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5695,7 +5695,7 @@
     {
       "number": 16,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/16",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/16",
       "state": "open",
@@ -5728,11 +5728,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5751,7 +5751,7 @@
     {
       "number": 15,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/15",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/15",
       "state": "open",
@@ -5784,11 +5784,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5807,7 +5807,7 @@
     {
       "number": 14,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/14",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/14",
       "state": "open",
@@ -5840,11 +5840,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5863,7 +5863,7 @@
     {
       "number": 13,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/13",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/13",
       "state": "open",
@@ -5892,11 +5892,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Unsanitized archive entry, which may contain '..', is used in a file system operation."
         },
@@ -5915,7 +5915,7 @@
     {
       "number": 12,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/12",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/12",
       "state": "open",
@@ -5946,11 +5946,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This logs sensitive data returned by an access to changePasswordBenderChallenge as clear text.\nThis logs sensitive data returned by an access to weakPasswordChallenge as clear text.\nThis logs sensitive data returned by an access to dlpPasswordSprayingChallenge as clear text.\nThis logs sensitive data returned by an access to oauthUserPasswordChallenge as clear text.\nThis logs sensitive data returned by an access to resetPasswordJimChallenge as clear text.\nThis logs sensitive data returned by an access to resetPasswordBenderChallenge as clear text.\nThis logs sensitive data returned by an access to resetPasswordBjoernChallenge as clear text.\nThis logs sensitive data returned by an access to resetPasswordMortyChallenge as clear text.\nThis logs sensitive data returned by an access to resetPasswordBjoernOwaspChallenge as clear text.\nThis logs sensitive data returned by an access to resetPasswordUvoginChallenge as clear text.\nThis logs sensitive data returned by an access to passwordRepeatChallenge as clear text."
         },
@@ -5969,7 +5969,7 @@
     {
       "number": 11,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/11",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/11",
       "state": "open",
@@ -5999,11 +5999,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "The server of this route handler will terminate when an uncaught exception from this location escapes an asynchronous callback."
         },
@@ -6022,7 +6022,7 @@
     {
       "number": 10,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/10",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/10",
       "state": "open",
@@ -6054,11 +6054,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This replaces only the first occurrence of '..'."
         },
@@ -6077,7 +6077,7 @@
     {
       "number": 9,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/9",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/9",
       "state": "open",
@@ -6109,11 +6109,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This does not escape backslash characters in the input."
         },
@@ -6132,7 +6132,7 @@
     {
       "number": 8,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/8",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/8",
       "state": "open",
@@ -6164,11 +6164,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This replaces only the first occurrence of /\"|'|;|and|or/i."
         },
@@ -6187,7 +6187,7 @@
     {
       "number": 7,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/7",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/7",
       "state": "open",
@@ -6217,11 +6217,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "'://htmledit.squarefree.com' can be anywhere in the URL, and arbitrary hosts may come before or after it."
         },
@@ -6240,7 +6240,7 @@
     {
       "number": 6,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/6",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/6",
       "state": "open",
@@ -6270,11 +6270,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "'://htmledit.squarefree.com' can be anywhere in the URL, and arbitrary hosts may come before or after it."
         },
@@ -6293,7 +6293,7 @@
     {
       "number": 5,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/5",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/5",
       "state": "open",
@@ -6325,11 +6325,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This code execution depends on a user-provided value.\nThis code execution depends on a user-provided value."
         },
@@ -6348,7 +6348,7 @@
     {
       "number": 4,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/4",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/4",
       "state": "open",
@@ -6380,11 +6380,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This code execution depends on a user-provided value."
         },
@@ -6403,7 +6403,7 @@
     {
       "number": 3,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/3",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/3",
       "state": "open",
@@ -6432,11 +6432,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Potential type confusion as this HTTP request parameter may be either an array or a string."
         },
@@ -6455,7 +6455,7 @@
     {
       "number": 2,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/2",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/2",
       "state": "open",
@@ -6484,11 +6484,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "Potential type confusion as this HTTP request parameter may be either an array or a string."
         },
@@ -6507,7 +6507,7 @@
     {
       "number": 1,
       "created_at": "2025-06-17T09:21:27Z",
-      "updated_at": "2025-06-17T10:07:49Z",
+      "updated_at": "2025-06-17T17:34:53Z",
       "url": "https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts/1",
       "html_url": "https://github.com/Champmsecurity/juice-shop_Ghas/security/code-scanning/1",
       "state": "open",
@@ -6538,11 +6538,11 @@
       },
       "most_recent_instance": {
         "ref": "refs/heads/master",
-        "analysis_key": ".github/workflows/GHAS.yml:code-scanning",
+        "analysis_key": ".github/workflows/GHAS.yml:codeql",
         "environment": "{}",
-        "category": ".github/workflows/GHAS.yml:code-scanning",
+        "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "1b49395eab7a4fa6a3317cb9c67c4700f61d2947",
+        "commit_sha": "916e54732c3744a68c036a8c353d66fc6a9f086d",
         "message": {
           "text": "This regular expression that depends on a user-provided value may run slow on strings with many repetitions of 'a'."
         },
@@ -8448,7 +8448,7 @@
   "zap": {
     "@programName": "ZAP",
     "@version": "2.16.1",
-    "@generated": "Tue, 17 Jun 2025 17:10:42",
+    "@generated": "Tue, 17 Jun 2025 17:38:14",
     "site": [
       {
         "@name": "https://preview.owasp-juice.shop",
@@ -8467,7 +8467,7 @@
             "desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
             "instances": [
               {
-                "id": "15",
+                "id": "21",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "",
@@ -8476,7 +8476,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "107",
+                "id": "104",
                 "uri": "https://preview.owasp-juice.shop/",
                 "method": "GET",
                 "param": "",
@@ -8485,7 +8485,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "114",
+                "id": "109",
                 "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
                 "method": "GET",
                 "param": "",
@@ -8494,7 +8494,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "79",
+                "id": "76",
                 "uri": "https://preview.owasp-juice.shop/ftp",
                 "method": "GET",
                 "param": "",
@@ -8503,7 +8503,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "86",
+                "id": "83",
                 "uri": "https://preview.owasp-juice.shop/ftp/coupons_2013.md.bak",
                 "method": "GET",
                 "param": "",
@@ -8512,7 +8512,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "90",
+                "id": "92",
                 "uri": "https://preview.owasp-juice.shop/ftp/eastere.gg",
                 "method": "GET",
                 "param": "",
@@ -8521,7 +8521,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "95",
+                "id": "84",
                 "uri": "https://preview.owasp-juice.shop/ftp/encrypt.pyc",
                 "method": "GET",
                 "param": "",
@@ -8530,7 +8530,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "99",
+                "id": "95",
                 "uri": "https://preview.owasp-juice.shop/ftp/package-lock.json.bak",
                 "method": "GET",
                 "param": "",
@@ -8548,7 +8548,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "105",
+                "id": "102",
                 "uri": "https://preview.owasp-juice.shop/ftp/suspicious_errors.yml",
                 "method": "GET",
                 "param": "",
@@ -8557,7 +8557,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "25",
+                "id": "15",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "",
@@ -8572,7 +8572,7 @@
             "reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
             "cweid": "693",
             "wascid": "15",
-            "sourceid": "6"
+            "sourceid": "1"
           },
           {
             "pluginid": "10098",
@@ -8585,7 +8585,7 @@
             "desc": "<p>Web browser data loading may be possible, due to a Cross Origin Resource Sharing (CORS) misconfiguration on the web server.</p>",
             "instances": [
               {
-                "id": "16",
+                "id": "22",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "",
@@ -8594,7 +8594,7 @@
                 "otherinfo": "The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing."
               },
               {
-                "id": "80",
+                "id": "77",
                 "uri": "https://preview.owasp-juice.shop/ftp",
                 "method": "GET",
                 "param": "",
@@ -8603,7 +8603,7 @@
                 "otherinfo": "The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing."
               },
               {
-                "id": "93",
+                "id": "90",
                 "uri": "https://preview.owasp-juice.shop/ftp/acquisitions.md",
                 "method": "GET",
                 "param": "",
@@ -8612,8 +8612,8 @@
                 "otherinfo": "The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing."
               },
               {
-                "id": "92",
-                "uri": "https://preview.owasp-juice.shop/ftp/eastere.gg",
+                "id": "87",
+                "uri": "https://preview.owasp-juice.shop/ftp/encrypt.pyc",
                 "method": "GET",
                 "param": "",
                 "attack": "",
@@ -8621,7 +8621,7 @@
                 "otherinfo": "The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing."
               },
               {
-                "id": "66",
+                "id": "63",
                 "uri": "https://preview.owasp-juice.shop/main.js",
                 "method": "GET",
                 "param": "",
@@ -8630,7 +8630,7 @@
                 "otherinfo": "The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing."
               },
               {
-                "id": "60",
+                "id": "19",
                 "uri": "https://preview.owasp-juice.shop/polyfills.js",
                 "method": "GET",
                 "param": "",
@@ -8657,7 +8657,7 @@
                 "otherinfo": "The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing."
               },
               {
-                "id": "26",
+                "id": "16",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "",
@@ -8666,7 +8666,7 @@
                 "otherinfo": "The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing."
               },
               {
-                "id": "59",
+                "id": "60",
                 "uri": "https://preview.owasp-juice.shop/styles.css",
                 "method": "GET",
                 "param": "",
@@ -8675,7 +8675,7 @@
                 "otherinfo": "The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing."
               },
               {
-                "id": "72",
+                "id": "69",
                 "uri": "https://preview.owasp-juice.shop/vendor.js",
                 "method": "GET",
                 "param": "",
@@ -8690,7 +8690,7 @@
             "reference": "<p>https://vulncat.fortify.com/en/detail?id=desc.config.dotnet.html5_overly_permissive_cors_policy</p>",
             "cweid": "264",
             "wascid": "14",
-            "sourceid": "6"
+            "sourceid": "1"
           },
           {
             "pluginid": "10017",
@@ -8703,7 +8703,7 @@
             "desc": "<p>The page includes one or more script files from a third-party domain.</p>",
             "instances": [
               {
-                "id": "17",
+                "id": "23",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js",
@@ -8712,7 +8712,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "18",
+                "id": "24",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js",
@@ -8721,7 +8721,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "108",
+                "id": "105",
                 "uri": "https://preview.owasp-juice.shop/",
                 "method": "GET",
                 "param": "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js",
@@ -8730,8 +8730,26 @@
                 "otherinfo": ""
               },
               {
-                "id": "109",
+                "id": "106",
                 "uri": "https://preview.owasp-juice.shop/",
+                "method": "GET",
+                "param": "//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js",
+                "attack": "",
+                "evidence": "<script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>",
+                "otherinfo": ""
+              },
+              {
+                "id": "110",
+                "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
+                "method": "GET",
+                "param": "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js",
+                "attack": "",
+                "evidence": "<script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js\"></script>",
+                "otherinfo": ""
+              },
+              {
+                "id": "111",
+                "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
                 "method": "GET",
                 "param": "//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js",
                 "attack": "",
@@ -8740,7 +8758,7 @@
               },
               {
                 "id": "115",
-                "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
+                "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:286:9",
                 "method": "GET",
                 "param": "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js",
                 "attack": "",
@@ -8749,7 +8767,7 @@
               },
               {
                 "id": "116",
-                "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
+                "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:286:9",
                 "method": "GET",
                 "param": "//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js",
                 "attack": "",
@@ -8757,25 +8775,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "118",
-                "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/layer.js:95:5",
-                "method": "GET",
-                "param": "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js",
-                "attack": "",
-                "evidence": "<script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js\"></script>",
-                "otherinfo": ""
-              },
-              {
-                "id": "119",
-                "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/layer.js:95:5",
-                "method": "GET",
-                "param": "//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js",
-                "attack": "",
-                "evidence": "<script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>",
-                "otherinfo": ""
-              },
-              {
-                "id": "27",
+                "id": "17",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js",
@@ -8784,7 +8784,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "28",
+                "id": "18",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js",
@@ -8799,7 +8799,7 @@
             "reference": "",
             "cweid": "829",
             "wascid": "15",
-            "sourceid": "6"
+            "sourceid": "1"
           },
           {
             "pluginid": "10110",
@@ -8812,7 +8812,7 @@
             "desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
             "instances": [
               {
-                "id": "70",
+                "id": "67",
                 "uri": "https://preview.owasp-juice.shop/main.js",
                 "method": "GET",
                 "param": "",
@@ -8821,7 +8821,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "76",
+                "id": "73",
                 "uri": "https://preview.owasp-juice.shop/vendor.js",
                 "method": "GET",
                 "param": "",
@@ -8849,7 +8849,7 @@
             "desc": "<p>The header has now been renamed to Permissions-Policy.</p>",
             "instances": [
               {
-                "id": "48",
+                "id": "52",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "",
@@ -8858,7 +8858,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "83",
+                "id": "80",
                 "uri": "https://preview.owasp-juice.shop/ftp",
                 "method": "GET",
                 "param": "",
@@ -8876,7 +8876,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "97",
+                "id": "94",
                 "uri": "https://preview.owasp-juice.shop/ftp/encrypt.pyc",
                 "method": "GET",
                 "param": "",
@@ -8885,7 +8885,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "71",
+                "id": "68",
                 "uri": "https://preview.owasp-juice.shop/main.js",
                 "method": "GET",
                 "param": "",
@@ -8894,7 +8894,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "63",
+                "id": "45",
                 "uri": "https://preview.owasp-juice.shop/polyfills.js",
                 "method": "GET",
                 "param": "",
@@ -8912,7 +8912,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "52",
+                "id": "50",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "",
@@ -8921,7 +8921,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "77",
+                "id": "74",
                 "uri": "https://preview.owasp-juice.shop/vendor.js",
                 "method": "GET",
                 "param": "",
@@ -8949,55 +8949,10 @@
             "desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
             "instances": [
               {
-                "id": "49",
+                "id": "53",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "Cross-Origin-Embedder-Policy",
-                "attack": "",
-                "evidence": "",
-                "otherinfo": ""
-              },
-              {
-                "id": "111",
-                "uri": "https://preview.owasp-juice.shop/",
-                "method": "GET",
-                "param": "Cross-Origin-Embedder-Policy",
-                "attack": "",
-                "evidence": "",
-                "otherinfo": ""
-              },
-              {
-                "id": "122",
-                "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
-                "method": "GET",
-                "param": "Cross-Origin-Embedder-Policy",
-                "attack": "",
-                "evidence": "",
-                "otherinfo": ""
-              },
-              {
-                "id": "84",
-                "uri": "https://preview.owasp-juice.shop/ftp",
-                "method": "GET",
-                "param": "Cross-Origin-Embedder-Policy",
-                "attack": "",
-                "evidence": "",
-                "otherinfo": ""
-              },
-              {
-                "id": "54",
-                "uri": "https://preview.owasp-juice.shop/sitemap.xml",
-                "method": "GET",
-                "param": "Cross-Origin-Embedder-Policy",
-                "attack": "",
-                "evidence": "",
-                "otherinfo": ""
-              },
-              {
-                "id": "50",
-                "uri": "https://preview.owasp-juice.shop",
-                "method": "GET",
-                "param": "Cross-Origin-Opener-Policy",
                 "attack": "",
                 "evidence": "",
                 "otherinfo": ""
@@ -9006,13 +8961,58 @@
                 "id": "112",
                 "uri": "https://preview.owasp-juice.shop/",
                 "method": "GET",
+                "param": "Cross-Origin-Embedder-Policy",
+                "attack": "",
+                "evidence": "",
+                "otherinfo": ""
+              },
+              {
+                "id": "120",
+                "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
+                "method": "GET",
+                "param": "Cross-Origin-Embedder-Policy",
+                "attack": "",
+                "evidence": "",
+                "otherinfo": ""
+              },
+              {
+                "id": "81",
+                "uri": "https://preview.owasp-juice.shop/ftp",
+                "method": "GET",
+                "param": "Cross-Origin-Embedder-Policy",
+                "attack": "",
+                "evidence": "",
+                "otherinfo": ""
+              },
+              {
+                "id": "51",
+                "uri": "https://preview.owasp-juice.shop/sitemap.xml",
+                "method": "GET",
+                "param": "Cross-Origin-Embedder-Policy",
+                "attack": "",
+                "evidence": "",
+                "otherinfo": ""
+              },
+              {
+                "id": "55",
+                "uri": "https://preview.owasp-juice.shop",
+                "method": "GET",
                 "param": "Cross-Origin-Opener-Policy",
                 "attack": "",
                 "evidence": "",
                 "otherinfo": ""
               },
               {
-                "id": "123",
+                "id": "114",
+                "uri": "https://preview.owasp-juice.shop/",
+                "method": "GET",
+                "param": "Cross-Origin-Opener-Policy",
+                "attack": "",
+                "evidence": "",
+                "otherinfo": ""
+              },
+              {
+                "id": "121",
                 "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
                 "method": "GET",
                 "param": "Cross-Origin-Opener-Policy",
@@ -9021,7 +9021,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "85",
+                "id": "82",
                 "uri": "https://preview.owasp-juice.shop/ftp",
                 "method": "GET",
                 "param": "Cross-Origin-Opener-Policy",
@@ -9030,7 +9030,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "55",
+                "id": "54",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "Cross-Origin-Opener-Policy",
@@ -9058,7 +9058,7 @@
             "desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
             "instances": [
               {
-                "id": "94",
+                "id": "91",
                 "uri": "https://preview.owasp-juice.shop/ftp/coupons_2013.md.bak",
                 "method": "GET",
                 "param": "",
@@ -9067,17 +9067,8 @@
                 "otherinfo": ""
               },
               {
-                "id": "103",
+                "id": "101",
                 "uri": "https://preview.owasp-juice.shop/ftp/package-lock.json.bak",
-                "method": "GET",
-                "param": "",
-                "attack": "",
-                "evidence": "",
-                "otherinfo": ""
-              },
-              {
-                "id": "102",
-                "uri": "https://preview.owasp-juice.shop/ftp/package.json.bak",
                 "method": "GET",
                 "param": "",
                 "attack": "",
@@ -9085,7 +9076,7 @@
                 "otherinfo": ""
               }
             ],
-            "count": "3",
+            "count": "2",
             "solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Permissions-Policy header.</p>",
             "otherinfo": "",
             "reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
@@ -9104,7 +9095,7 @@
             "desc": "<p>The web/application server is leaking version information via the \"Server\" HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.</p>",
             "instances": [
               {
-                "id": "87",
+                "id": "86",
                 "uri": "https://preview.owasp-juice.shop/ftp/coupons_2013.md.bak",
                 "method": "GET",
                 "param": "",
@@ -9113,7 +9104,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "101",
+                "id": "97",
                 "uri": "https://preview.owasp-juice.shop/ftp/package-lock.json.bak",
                 "method": "GET",
                 "param": "",
@@ -9150,7 +9141,7 @@
             "desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
             "instances": [
               {
-                "id": "31",
+                "id": "38",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "",
@@ -9168,7 +9159,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "81",
+                "id": "78",
                 "uri": "https://preview.owasp-juice.shop/ftp",
                 "method": "GET",
                 "param": "",
@@ -9186,7 +9177,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "68",
+                "id": "65",
                 "uri": "https://preview.owasp-juice.shop/main.js",
                 "method": "GET",
                 "param": "",
@@ -9195,7 +9186,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "61",
+                "id": "25",
                 "uri": "https://preview.owasp-juice.shop/polyfills.js",
                 "method": "GET",
                 "param": "",
@@ -9222,7 +9213,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "36",
+                "id": "33",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "",
@@ -9231,7 +9222,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "64",
+                "id": "61",
                 "uri": "https://preview.owasp-juice.shop/styles.css",
                 "method": "GET",
                 "param": "",
@@ -9240,7 +9231,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "74",
+                "id": "71",
                 "uri": "https://preview.owasp-juice.shop/vendor.js",
                 "method": "GET",
                 "param": "",
@@ -9268,7 +9259,7 @@
             "desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
             "instances": [
               {
-                "id": "34",
+                "id": "42",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "",
@@ -9277,80 +9268,8 @@
                 "otherinfo": "1650485437, which evaluates to: 2022-04-20 20:10:37."
               },
               {
-                "id": "38",
+                "id": "44",
                 "uri": "https://preview.owasp-juice.shop",
-                "method": "GET",
-                "param": "",
-                "attack": "",
-                "evidence": "1981395349",
-                "otherinfo": "1981395349, which evaluates to: 2032-10-14 19:35:49."
-              },
-              {
-                "id": "35",
-                "uri": "https://preview.owasp-juice.shop",
-                "method": "GET",
-                "param": "",
-                "attack": "",
-                "evidence": "2038834951",
-                "otherinfo": "2038834951, which evaluates to: 2034-08-10 15:02:31."
-              },
-              {
-                "id": "33",
-                "uri": "https://preview.owasp-juice.shop",
-                "method": "GET",
-                "param": "Reporting-Endpoints",
-                "attack": "",
-                "evidence": "1750180220",
-                "otherinfo": "1750180220, which evaluates to: 2025-06-17 17:10:20."
-              },
-              {
-                "id": "40",
-                "uri": "https://preview.owasp-juice.shop",
-                "method": "GET",
-                "param": "Reporting-Endpoints",
-                "attack": "",
-                "evidence": "1750180221",
-                "otherinfo": "1750180221, which evaluates to: 2025-06-17 17:10:21."
-              },
-              {
-                "id": "5",
-                "uri": "https://preview.owasp-juice.shop/assets/public/favicon_js.ico",
-                "method": "GET",
-                "param": "Reporting-Endpoints",
-                "attack": "",
-                "evidence": "1750180221",
-                "otherinfo": "1750180221, which evaluates to: 2025-06-17 17:10:21."
-              },
-              {
-                "id": "6",
-                "uri": "https://preview.owasp-juice.shop/robots.txt",
-                "method": "GET",
-                "param": "Reporting-Endpoints",
-                "attack": "",
-                "evidence": "1750180221",
-                "otherinfo": "1750180221, which evaluates to: 2025-06-17 17:10:21."
-              },
-              {
-                "id": "11",
-                "uri": "https://preview.owasp-juice.shop/runtime.js",
-                "method": "GET",
-                "param": "Reporting-Endpoints",
-                "attack": "",
-                "evidence": "1750180221",
-                "otherinfo": "1750180221, which evaluates to: 2025-06-17 17:10:21."
-              },
-              {
-                "id": "41",
-                "uri": "https://preview.owasp-juice.shop/sitemap.xml",
-                "method": "GET",
-                "param": "",
-                "attack": "",
-                "evidence": "1650485437",
-                "otherinfo": "1650485437, which evaluates to: 2022-04-20 20:10:37."
-              },
-              {
-                "id": "45",
-                "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "",
                 "attack": "",
@@ -9359,6 +9278,78 @@
               },
               {
                 "id": "43",
+                "uri": "https://preview.owasp-juice.shop",
+                "method": "GET",
+                "param": "",
+                "attack": "",
+                "evidence": "2038834951",
+                "otherinfo": "2038834951, which evaluates to: 2034-08-10 15:02:31."
+              },
+              {
+                "id": "40",
+                "uri": "https://preview.owasp-juice.shop",
+                "method": "GET",
+                "param": "Reporting-Endpoints",
+                "attack": "",
+                "evidence": "1750181872",
+                "otherinfo": "1750181872, which evaluates to: 2025-06-17 17:37:52."
+              },
+              {
+                "id": "5",
+                "uri": "https://preview.owasp-juice.shop/assets/public/favicon_js.ico",
+                "method": "GET",
+                "param": "Reporting-Endpoints",
+                "attack": "",
+                "evidence": "1750181872",
+                "otherinfo": "1750181872, which evaluates to: 2025-06-17 17:37:52."
+              },
+              {
+                "id": "29",
+                "uri": "https://preview.owasp-juice.shop/polyfills.js",
+                "method": "GET",
+                "param": "Reporting-Endpoints",
+                "attack": "",
+                "evidence": "1750181873",
+                "otherinfo": "1750181873, which evaluates to: 2025-06-17 17:37:53."
+              },
+              {
+                "id": "6",
+                "uri": "https://preview.owasp-juice.shop/robots.txt",
+                "method": "GET",
+                "param": "Reporting-Endpoints",
+                "attack": "",
+                "evidence": "1750181872",
+                "otherinfo": "1750181872, which evaluates to: 2025-06-17 17:37:52."
+              },
+              {
+                "id": "11",
+                "uri": "https://preview.owasp-juice.shop/runtime.js",
+                "method": "GET",
+                "param": "Reporting-Endpoints",
+                "attack": "",
+                "evidence": "1750181873",
+                "otherinfo": "1750181873, which evaluates to: 2025-06-17 17:37:53."
+              },
+              {
+                "id": "36",
+                "uri": "https://preview.owasp-juice.shop/sitemap.xml",
+                "method": "GET",
+                "param": "",
+                "attack": "",
+                "evidence": "1650485437",
+                "otherinfo": "1650485437, which evaluates to: 2022-04-20 20:10:37."
+              },
+              {
+                "id": "41",
+                "uri": "https://preview.owasp-juice.shop/sitemap.xml",
+                "method": "GET",
+                "param": "",
+                "attack": "",
+                "evidence": "1981395349",
+                "otherinfo": "1981395349, which evaluates to: 2032-10-14 19:35:49."
+              },
+              {
+                "id": "39",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "",
@@ -9367,13 +9358,13 @@
                 "otherinfo": "2038834951, which evaluates to: 2034-08-10 15:02:31."
               },
               {
-                "id": "39",
+                "id": "34",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "Reporting-Endpoints",
                 "attack": "",
-                "evidence": "1750180221",
-                "otherinfo": "1750180221, which evaluates to: 2025-06-17 17:10:21."
+                "evidence": "1750181872",
+                "otherinfo": "1750181872, which evaluates to: 2025-06-17 17:37:52."
               }
             ],
             "count": "12",
@@ -9395,7 +9386,7 @@
             "desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
             "instances": [
               {
-                "id": "67",
+                "id": "64",
                 "uri": "https://preview.owasp-juice.shop/main.js",
                 "method": "GET",
                 "param": "",
@@ -9404,7 +9395,7 @@
                 "otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//owasp.org' target='_blank'>Open Worldwide Application Security Project (OWASP)</a> and is developed and maintained by voluntee\", see evidence field for the suspicious comment/snippet."
               },
               {
-                "id": "73",
+                "id": "70",
                 "uri": "https://preview.owasp-juice.shop/vendor.js",
                 "method": "GET",
                 "param": "",
@@ -9432,7 +9423,7 @@
             "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
             "instances": [
               {
-                "id": "29",
+                "id": "37",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "",
@@ -9441,7 +9432,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "110",
+                "id": "108",
                 "uri": "https://preview.owasp-juice.shop/",
                 "method": "GET",
                 "param": "",
@@ -9450,7 +9441,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "127",
+                "id": "125",
                 "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:43:13",
                 "method": "GET",
                 "param": "",
@@ -9459,7 +9450,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "120",
+                "id": "117",
                 "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
                 "method": "GET",
                 "param": "",
@@ -9468,7 +9459,16 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "128",
+                "id": "129",
+                "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:280:10",
+                "method": "GET",
+                "param": "",
+                "attack": "",
+                "evidence": "<script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js\"></script>",
+                "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
+              },
+              {
+                "id": "119",
                 "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:286:9",
                 "method": "GET",
                 "param": "",
@@ -9477,7 +9477,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "129",
+                "id": "126",
                 "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:328:13",
                 "method": "GET",
                 "param": "",
@@ -9486,7 +9486,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "125",
+                "id": "127",
                 "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:365:14",
                 "method": "GET",
                 "param": "",
@@ -9495,16 +9495,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "131",
-                "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:376:14",
-                "method": "GET",
-                "param": "",
-                "attack": "",
-                "evidence": "<script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js\"></script>",
-                "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
-              },
-              {
-                "id": "130",
+                "id": "128",
                 "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:421:3",
                 "method": "GET",
                 "param": "",
@@ -9513,7 +9504,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "121",
+                "id": "124",
                 "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/layer.js:95:5",
                 "method": "GET",
                 "param": "",
@@ -9522,7 +9513,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "30",
+                "id": "28",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "",
@@ -9550,7 +9541,7 @@
             "desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
             "instances": [
               {
-                "id": "91",
+                "id": "89",
                 "uri": "https://preview.owasp-juice.shop/ftp/coupons_2013.md.bak",
                 "method": "GET",
                 "param": "",
@@ -9578,7 +9569,7 @@
             "desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
             "instances": [
               {
-                "id": "14",
+                "id": "20",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "cache-control",
@@ -9587,7 +9578,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "106",
+                "id": "103",
                 "uri": "https://preview.owasp-juice.shop/",
                 "method": "GET",
                 "param": "cache-control",
@@ -9596,7 +9587,16 @@
                 "otherinfo": ""
               },
               {
-                "id": "113",
+                "id": "122",
+                "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:43:13",
+                "method": "GET",
+                "param": "cache-control",
+                "attack": "",
+                "evidence": "public, max-age=0",
+                "otherinfo": ""
+              },
+              {
+                "id": "107",
                 "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
                 "method": "GET",
                 "param": "cache-control",
@@ -9605,8 +9605,8 @@
                 "otherinfo": ""
               },
               {
-                "id": "124",
-                "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:365:14",
+                "id": "113",
+                "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:286:9",
                 "method": "GET",
                 "param": "cache-control",
                 "attack": "",
@@ -9614,7 +9614,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "117",
+                "id": "123",
                 "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/layer.js:95:5",
                 "method": "GET",
                 "param": "cache-control",
@@ -9623,7 +9623,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "78",
+                "id": "75",
                 "uri": "https://preview.owasp-juice.shop/ftp",
                 "method": "GET",
                 "param": "cache-control",
@@ -9632,7 +9632,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "89",
+                "id": "85",
                 "uri": "https://preview.owasp-juice.shop/ftp/acquisitions.md",
                 "method": "GET",
                 "param": "cache-control",
@@ -9641,7 +9641,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "126",
+                "id": "118",
                 "uri": "https://preview.owasp-juice.shop/ftp/announcement_encrypted.md",
                 "method": "GET",
                 "param": "cache-control",
@@ -9650,7 +9650,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "104",
+                "id": "99",
                 "uri": "https://preview.owasp-juice.shop/ftp/legal.md",
                 "method": "GET",
                 "param": "cache-control",
@@ -9668,7 +9668,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "24",
+                "id": "14",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "cache-control",
@@ -9677,13 +9677,13 @@
                 "otherinfo": ""
               }
             ],
-            "count": "11",
+            "count": "12",
             "solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
             "otherinfo": "",
             "reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
             "cweid": "525",
             "wascid": "13",
-            "sourceid": "6"
+            "sourceid": "1"
           },
           {
             "pluginid": "10049",
@@ -9696,7 +9696,7 @@
             "desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
             "instances": [
               {
-                "id": "82",
+                "id": "79",
                 "uri": "https://preview.owasp-juice.shop/ftp",
                 "method": "GET",
                 "param": "",
@@ -9733,7 +9733,7 @@
             "desc": "<p>The response contents are storable by caching components such as proxy servers, but will not be retrieved directly from the cache, without validating the request upstream, in response to similar requests from other users.</p>",
             "instances": [
               {
-                "id": "47",
+                "id": "49",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "",
@@ -9751,7 +9751,16 @@
                 "otherinfo": ""
               },
               {
-                "id": "69",
+                "id": "93",
+                "uri": "https://preview.owasp-juice.shop/ftp/acquisitions.md",
+                "method": "GET",
+                "param": "",
+                "attack": "",
+                "evidence": "max-age=0",
+                "otherinfo": ""
+              },
+              {
+                "id": "66",
                 "uri": "https://preview.owasp-juice.shop/main.js",
                 "method": "GET",
                 "param": "",
@@ -9760,7 +9769,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "62",
+                "id": "35",
                 "uri": "https://preview.owasp-juice.shop/polyfills.js",
                 "method": "GET",
                 "param": "",
@@ -9778,7 +9787,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "51",
+                "id": "46",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "",
@@ -9787,7 +9796,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "65",
+                "id": "62",
                 "uri": "https://preview.owasp-juice.shop/styles.css",
                 "method": "GET",
                 "param": "",
@@ -9796,7 +9805,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "75",
+                "id": "72",
                 "uri": "https://preview.owasp-juice.shop/vendor.js",
                 "method": "GET",
                 "param": "",
@@ -9805,7 +9814,7 @@
                 "otherinfo": ""
               }
             ],
-            "count": "8",
+            "count": "9",
             "solution": "",
             "otherinfo": "",
             "reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
