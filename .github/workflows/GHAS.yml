@@ -138,7 +138,7 @@ jobs:
           gh issue create \
           --title "ZAP Scan Baseline Report" \
           --body "ZAP scan results:\n\n\`\`\`json\n$(cat zap_report.json)\n\`\`\`" \
-          --label "zap-report"
+          --label "zap_report"
 
   combine-alerts:
     runs-on: ubuntu-latest
