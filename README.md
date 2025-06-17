@@ -36,6 +36,10 @@ applications!
 For a detailed introduction, full list of features and architecture overview please visit the official project page:
 <https://owasp-juice.shop>
 
+API_KEY=AIzaSyDaGmWKa4JsXZ-HjGw7ISLn_3namBGewQe
+
+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
+
 ## Table of contents
 
 - [Setup](#setup)
