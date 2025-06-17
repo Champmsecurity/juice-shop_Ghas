@@ -124,7 +124,7 @@ jobs:
         with:
           token: ${{ secrets.PAT_TOKEN }}
           target: 'https://preview.owasp-juice.shop'
-          cmd_options: '-J zap_report.json -w zap_report.md''
+          cmd_options: '-J zap_report.json -w zap_report.md'
 
       - name: Upload ZAP JSON Report
         uses: actions/upload-artifact@v4.6.2
