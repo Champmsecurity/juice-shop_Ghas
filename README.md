@@ -37,7 +37,7 @@ For a detailed introduction, full list of features and architecture overview ple
 <https://owasp-juice.shop>
 
 API_KEY=AIzaSyDaGmWKa4JsXZ-HjGw7ISLn_3namBGewQe
-
+xyvnnnn
 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
 
 ## Table of contents
