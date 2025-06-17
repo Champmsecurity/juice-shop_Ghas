@@ -46,10 +46,17 @@ jobs:
       # --- Fetch code scanning alerts after all analysis ---
       - name: Fetch Code Scanning Alerts
         run: |
-          curl -H "Authorization: token ${{secrets.PAT_TOKEN}}" \
-               -H "Accept: application/vnd.github.v3+json" \
-               https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/code-scanning/alerts \
-               -o code-scanning-alerts.json
+          echo "[]" > code-scanning-alerts.json
+          for page in {1..10}; do
+            resp=$(curl -s -H "Authorization: token ${{secrets.PAT_TOKEN}}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              "https://api.github.com/repos/Champmsecurity/ghas-demo-1/code-scanning/alerts?per_page=100&page=$page")
+            count=$(echo "$resp" | jq length)
+            if [ "$count" -eq 0 ]; then break; fi
+            jq -s '.[0] + .[1]' code-scanning-alerts.json <(echo "$resp") > tmp.json
+            mv tmp.json code-scanning-alerts.json
+            if [ "$count" -lt 100 ]; then break; fi
+          done
 
       - name: Upload Code Scanning Alerts
         uses: actions/upload-artifact@v4.6.2
