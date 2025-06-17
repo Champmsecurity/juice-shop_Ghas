@@ -126,6 +126,14 @@ jobs:
           target: 'https://preview.owasp-juice.shop'
           cmd_options: '-J zap_report.json -w zap_report.md'
 
+      - name: Updating issues 
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          gh issue create \
+            --title "ZAP Scan Baseline Report" \
+            --body "$(cat zap_report.md)"
+
       - name: Upload ZAP JSON Report
         uses: actions/upload-artifact@v4.6.2
         with:
