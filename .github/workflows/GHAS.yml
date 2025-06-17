@@ -131,6 +131,14 @@ jobs:
         with:
           name: zapreport
           path: zap_report.json
+      - name: Create GitHub Issue with ZAP Report
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          gh issue create \
+          --title "ZAP Scan Baseline Report" \
+          --body "ZAP scan results:\n\n\`\`\`json\n$(cat zap_report.json)\n\`\`\`" \
+          --label "zap-report"
 
   combine-alerts:
     runs-on: ubuntu-latest
