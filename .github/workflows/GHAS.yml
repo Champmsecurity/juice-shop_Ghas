@@ -12,38 +12,39 @@ permissions:
   issues: write
 
 jobs:
-  code-scanning:
+  codeql:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-
-      # --- CodeQL Analysis ---
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:
-          languages: javascript, python  # Change as per your project
-
+          languages: javascript, python
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
 
-      # --- Semgrep Analysis ---
-      
+  semgrep:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
       - name: Run Semgrep
         uses: returntocorp/semgrep-action@fcd5ab7459e8d91cb1777481980d1b18b4fc6735
         with:
-          Config: auto
-          generateSarif: "1"
+          config: auto
+          sarif: true
+          output: semgrep.sarif
         continue-on-error: true
-
-      - name: Upload SARIF file
-        if: always()
+      - name: Upload SARIF to GitHub Code Scanning
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: semgrep.sarif
-       
 
-      # --- Fetch code scanning alerts after all analysis ---
+  code-scanning:
+    runs-on: ubuntu-latest
+    needs: [codeql, semgrep]
+    steps:
       - name: Fetch Code Scanning Alerts
         run: |
           echo "[]" > code-scanning-alerts.json
@@ -57,29 +58,26 @@ jobs:
             mv tmp.json code-scanning-alerts.json
             if [ "$count" -lt 100 ]; then break; fi
           done
-
       - name: Upload Code Scanning Alerts
         uses: actions/upload-artifact@v4.6.2
         with:
           name: code-scanning-alerts
           path: code-scanning-alerts.json
-          
+
   secret-scanning:
     runs-on: ubuntu-latest
+    needs: [code-scanning]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
       - name: secret-scanning-custom-action
         uses: advanced-security/secret-scanning-tools@v1
-
       - name: Fetch Secret Scanning Alerts
         run: |
           curl -H "Authorization: token ${{secrets.PAT_TOKEN}}" \
                -H "Accept: application/vnd.github.v3+json" \
                https://api.github.com/repos/Champmsecurity/juice-shop_Ghas/secret-scanning/alerts \
                -o secret-scanning-alerts.json
-
       - name: Upload Secret Scanning Alerts
         uses: actions/upload-artifact@v4.6.2
         with:
@@ -88,10 +86,10 @@ jobs:
 
   dependabot:
     runs-on: ubuntu-latest
+    needs: [code-scanning]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
       - name: Fetch Dependabot Alerts
         run: |
           echo "[]" > dependabot-alerts.json
@@ -105,7 +103,6 @@ jobs:
             mv tmp.json dependabot-alerts.json
             if [ "$count" -lt 100 ]; then break; fi
           done
-
       - name: Upload Dependabot Alerts
         uses: actions/upload-artifact@v4.6.2
         with:
@@ -114,18 +111,17 @@ jobs:
 
   zap_scan:
     runs-on: ubuntu-latest
+    needs: [code-scanning]
     name: OWSAP ZAP SCAN
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v4
-
       - name: ZAP Scan
         uses: zaproxy/action-baseline@v0.14.0
         with:
           token: ${{ secrets.PAT_TOKEN }}
           target: 'https://preview.owasp-juice.shop'
           cmd_options: '-J zap_report.json -w zap_report.md'
-
       - name: Updating issues 
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
@@ -133,7 +129,6 @@ jobs:
           gh issue create \
             --title "ZAP Scan Baseline Report" \
             --body "$(cat zap_report.md)"
-
       - name: Upload ZAP JSON Report
         uses: actions/upload-artifact@v4.6.2
         with:
@@ -142,31 +137,26 @@ jobs:
 
   combine-alerts:
     runs-on: ubuntu-latest
-    needs: [code-scanning, secret-scanning, dependabot, zap_scan]
+    needs: [secret-scanning, dependabot, zap_scan, code-scanning]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
       - name: Download Code Scanning Alerts
         uses: actions/download-artifact@v4
         with:
           name: code-scanning-alerts
-
       - name: Download Secret Scanning Alerts
         uses: actions/download-artifact@v4
         with:
           name: secret-scanning-alerts
-
       - name: Download Dependabot Alerts
         uses: actions/download-artifact@v4
         with:
           name: dependabot-alerts
-
       - name: Download ZAP JSON Report
         uses: actions/download-artifact@v4
         with:
           name: zapreport
-
       - name: Combine All Alerts into One JSON
         run: |
           jq -n \
@@ -176,13 +166,11 @@ jobs:
             --slurpfile zap zap_report.json \
             '{code_scanning: $code[0], secret_scanning: $secret[0], dependabot: $dependabot[0], zap: $zap[0]}' \
             > all-alerts.json
-
       - name: Upload Combined Alerts
         uses: actions/upload-artifact@v4.6.2
         with:
           name: all-alerts
           path: all-alerts.json
-
       - name: Commit and push all-alerts.json
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
