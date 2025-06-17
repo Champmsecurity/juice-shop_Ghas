@@ -124,20 +124,13 @@ jobs:
         with:
           token: ${{ secrets.PAT_TOKEN }}
           target: 'https://preview.owasp-juice.shop'
-          cmd_options: '-J zap_report.json'
+          cmd_options: '-J zap_report.json -w zap_report.md''
 
       - name: Upload ZAP JSON Report
         uses: actions/upload-artifact@v4.6.2
         with:
           name: zapreport
           path: zap_report.json
-      - name: Create GitHub Issue with ZAP Report
-        env:
-          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
-        run: |
-          gh issue create \
-          --title "ZAP Scan Baseline Report" \
-          --body "ZAP scan results:\n\n\`\`\`json\n$(cat zap_report.json)\n\`\`\`" \
 
   combine-alerts:
     runs-on: ubuntu-latest
