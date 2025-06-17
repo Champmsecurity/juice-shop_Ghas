@@ -10,5 +10,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Say Hello
+      - name: Say Hello Github
         run: echo "Hello from GitHub Actions!"
