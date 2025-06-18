@@ -25,7 +25,7 @@ jobs:
   # 🛡️ === SAST PHASE ===
   codeql:
     runs-on: ubuntu-latest
-    name: 🛡️ SAST: CodeQL
+    name: 🛡️ SAST-CodeQL
     needs: build
     steps:
       - name: Checkout Repository
@@ -39,7 +39,7 @@ jobs:
 
   semgrep:
     runs-on: ubuntu-latest
-    name: 🛡️ SAST: Semgrep
+    name: 🛡️ SAST-Semgrep
     needs: build
     steps:
       - name: Checkout Repository
@@ -58,7 +58,7 @@ jobs:
 
   code-scanning:
     runs-on: ubuntu-latest
-    name: 🛡️ SAST: Code Scanning
+    name: 🛡️ SAST-Code Scanning
     needs: [codeql, semgrep]
     steps:
       - name: Fetch Code Scanning Alerts
@@ -82,7 +82,7 @@ jobs:
 
   secret-scanning:
     runs-on: ubuntu-latest
-    name: 🛡️ SAST: Secret Scanning
+    name: 🛡️ SAST-Secret Scanning
     needs: build
     steps:
       - name: Checkout code
@@ -104,7 +104,7 @@ jobs:
   # 🌐 === DAST PHASE ===
   zap_scan:
     runs-on: ubuntu-latest
-    name: 🌐 DAST: ZAP
+    name: 🌐 DAST-ZAP
     needs: build
     steps:
       - name: Check out Git repository
@@ -138,7 +138,7 @@ jobs:
   # 📦 === SCA PHASE ===
   dependabot:
     runs-on: ubuntu-latest
-    name: 📦 SCA: Dependabot
+    name: 📦 SCA-Dependabot
     needs: build
     steps:
       - name: Checkout code
