@@ -23,9 +23,18 @@ jobs:
       #   run: npm install
 
   # 🛡️ === SAST PHASE ===
+  code_scanning:
+    runs-on: ubuntu-latest
+    name: 🛡️ SAST-Codescanning
+    needs: build
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
   codeql:
     runs-on: ubuntu-latest
     name: 🛡️ SAST-CodeQL
+    needs: code_scanning
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -39,6 +48,7 @@ jobs:
   semgrep:
     runs-on: ubuntu-latest
     name: 🛡️ SAST-Semgrep
+    needs: code_scanning
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -54,11 +64,6 @@ jobs:
         with:
           sarif_file: semgrep.sarif
 
-  code-scanning:
-    runs-on: ubuntu-latest
-    name: 🛡️ SAST-Code Scanning
-    needs: [codeql, semgrep]
-    steps:
       - name: Fetch Code Scanning Alerts
         run: |
           echo "[]" > code-scanning-alerts.json
@@ -103,7 +108,7 @@ jobs:
   zap_scan:
     runs-on: ubuntu-latest
     name: 🌐 DAST-ZAP
-    needs: [secret-scanning, code-scanning]
+    needs: [secret-scanning, code_scanning]
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v4
