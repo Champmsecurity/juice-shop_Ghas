@@ -125,13 +125,23 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           target: 'https://preview.owasp-juice.shop'
           cmd_options: '-J zap_report.json -w zap_report.md'
-      - name: Updating issues 
+          
+      #updating Issues to github repo 
+      - name: Create or Update ZAP Scan Issue
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          gh issue create \
-            --title "ZAP Scan Baseline Report" \
-            --body "$(cat zap_report.md)"
+          ISSUE_TITLE="ZAP Scan Baseline Report"
+          ISSUE_BODY="$(cat zap_report.md)"
+          # Try to find an existing open issue with the same title
+          ISSUE_NUMBER=$(gh issue list --state open --search "$ISSUE_TITLE" --json number,title | jq -r '.[] | select(.title=="'"$ISSUE_TITLE"'") | .number')
+          if [ -n "$ISSUE_NUMBER" ]; then
+            echo "Updating existing issue #$ISSUE_NUMBER"
+            gh issue edit "$ISSUE_NUMBER" --body "$ISSUE_BODY"
+          else
+            echo "Creating new issue"
+            gh issue create --title "$ISSUE_TITLE" --body "$ISSUE_BODY"
+          fi
       - name: Upload ZAP JSON Report
         uses: actions/upload-artifact@v4.6.2
         with:
