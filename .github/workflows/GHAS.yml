@@ -184,3 +184,6 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+      - name: Add Power BI Dashboard Link to Summary
+        run: |
+          echo "## 📊 [View Power BI Dashboard](https://your-powerbi-url-here)" >> $GITHUB_STEP_SUMMARY
