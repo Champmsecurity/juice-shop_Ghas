@@ -86,7 +86,7 @@ jobs:
   secret-scanning:
     runs-on: ubuntu-latest
     name: 🛡️ SAST-Secret Scanning
-    needs: build
+    needs: code_scanning
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -108,7 +108,7 @@ jobs:
   zap_scan:
     runs-on: ubuntu-latest
     name: 🌐 DAST-ZAP
-    needs: build
+    needs: [build, secret-scanning]
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v4
@@ -142,7 +142,7 @@ jobs:
   dependabot:
     runs-on: ubuntu-latest
     name: 📦 SCA-Dependabot
-    needs: build
+    needs: [build,zap_scan]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
