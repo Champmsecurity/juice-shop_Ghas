@@ -169,7 +169,7 @@ jobs:
   combine-alerts:
     runs-on: ubuntu-latest
     name: 📊 Scanning Report
-    needs: [zap_scan, dependabot]
+    needs: zap_scan
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
