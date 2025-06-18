@@ -108,7 +108,7 @@ jobs:
   zap_scan:
     runs-on: ubuntu-latest
     name: 🌐 DAST-ZAP
-    needs: [secret-scanning, codeql, semgrep]
+    needs: build
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v4
@@ -169,7 +169,7 @@ jobs:
   combine-alerts:
     runs-on: ubuntu-latest
     name: 📊 Scanning Report
-    needs: [dependabot]
+    needs: [dependabot, codeql, semgrep, secret-scanning, zap_scan]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
