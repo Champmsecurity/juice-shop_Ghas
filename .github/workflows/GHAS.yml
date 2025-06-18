@@ -142,7 +142,7 @@ jobs:
   dependabot:
     runs-on: ubuntu-latest
     name: 📦 SCA-Dependabot
-    needs: secret-scanning
+    needs: build
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
