@@ -14,7 +14,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build
+    name: Development/Build
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -24,7 +24,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    name: Deploy
+    name: SAST Analysis
     needs: build
     steps:
       - name: Deploy Step Placeholder
@@ -35,7 +35,7 @@ jobs:
   codeql:
     runs-on: ubuntu-latest
     name: Code QL
-    needs: build
+    needs: deploy
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -49,7 +49,7 @@ jobs:
   semgrep:
     runs-on: ubuntu-latest
     name: Semgrep
-    needs: build
+    needs: deploy
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -67,8 +67,8 @@ jobs:
 
   code-scanning:
     runs-on: ubuntu-latest
-    name: Code Scanning
-    needs: [codeql, semgrep]
+    name: SAST Activities
+    needs: [deploy, codeql, semgrep]
     steps:
       - name: Fetch Code Scanning Alerts
         run: |
@@ -93,7 +93,7 @@ jobs:
   secret-scanning:
     runs-on: ubuntu-latest
     name: Secret Scanning
-    needs: build
+    needs: [deploy,code-scanning]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
