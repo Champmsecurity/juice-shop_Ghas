@@ -23,13 +23,6 @@ jobs:
       #   run: npm install
 
   # 🛡️ === SAST PHASE ===
-  code_scanning:
-    runs-on: ubuntu-latest
-    name: 🛡️ SAST-Codescanning
-    needs: build
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
         
   codeql:
     runs-on: ubuntu-latest
@@ -63,7 +56,14 @@ jobs:
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: semgrep.sarif
-
+          
+  code_scanning:
+    runs-on: ubuntu-latest
+    name: 🛡️ SAST-Codescanning
+    needs: build
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
       - name: Fetch Code Scanning Alerts
         run: |
           echo "[]" > code-scanning-alerts.json
