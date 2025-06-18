@@ -108,7 +108,7 @@ jobs:
   zap_scan:
     runs-on: ubuntu-latest
     name: 🌐 DAST-ZAP
-    needs: [secret-scanning, codeql, semgrep]
+    needs: [secret-scanning, codeql, semgrep,dependabot]
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v4
