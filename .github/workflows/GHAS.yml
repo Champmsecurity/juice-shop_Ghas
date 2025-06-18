@@ -12,30 +12,21 @@ permissions:
   issues: write
 
 jobs:
+  # 🔧 === BUILD PHASE ===
   build:
     runs-on: ubuntu-latest
-    name: Development/Build
+    name: 🔧 Build
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-      # Add your build steps here, e.g.:
       # - name: Install dependencies
       #   run: npm install
 
-  deploy:
-    runs-on: ubuntu-latest
-    name: SAST Analysis
-    needs: build
-    steps:
-      - name: Deploy Step Placeholder
-        run: echo "Deploy your app here"
-      # Add your actual deployment steps here
-
-  # === SAST PHASE ===
+  # 🛡️ === SAST PHASE ===
   codeql:
     runs-on: ubuntu-latest
-    name: Code QL
-    needs: deploy
+    name: 🛡️ SAST: CodeQL
+    needs: build
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -48,7 +39,7 @@ jobs:
 
   semgrep:
     runs-on: ubuntu-latest
-    name: deploy
+    name: 🛡️ SAST: Semgrep
     needs: build
     steps:
       - name: Checkout Repository
@@ -67,7 +58,7 @@ jobs:
 
   code-scanning:
     runs-on: ubuntu-latest
-    name: SAST Activities
+    name: 🛡️ SAST: Code Scanning
     needs: [codeql, semgrep]
     steps:
       - name: Fetch Code Scanning Alerts
@@ -89,11 +80,10 @@ jobs:
           name: code-scanning-alerts
           path: code-scanning-alerts.json
 
-  # === SCA PHASE ===
   secret-scanning:
     runs-on: ubuntu-latest
-    name: Secret Scanning
-    needs: deploy
+    name: 🛡️ SAST: Secret Scanning
+    needs: build
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -111,10 +101,45 @@ jobs:
           name: secret-scanning-alerts
           path: secret-scanning-alerts.json
 
+  # 🌐 === DAST PHASE ===
+  zap_scan:
+    runs-on: ubuntu-latest
+    name: 🌐 DAST: ZAP
+    needs: build
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v4
+      - name: ZAP Scan
+        uses: zaproxy/action-baseline@v0.14.0
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          target: 'https://preview.owasp-juice.shop'
+          cmd_options: '-J zap_report.json -w zap_report.md'
+      - name: Updating issues 
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          ISSUE_TITLE="ZAP Scan Baseline Report"
+          ISSUE_BODY="$(cat zap_report.md)"
+          ISSUE_NUMBER=$(gh issue list --state open --search "$ISSUE_TITLE" --json number,title | jq -r '.[] | select(.title=="'"$ISSUE_TITLE"'") | .number')
+          if [ -n "$ISSUE_NUMBER" ]; then
+            echo "Updating existing issue #$ISSUE_NUMBER"
+            gh issue edit "$ISSUE_NUMBER" --body "$ISSUE_BODY"
+          else
+            echo "Creating new issue"
+            gh issue create --title "$ISSUE_TITLE" --body "$ISSUE_BODY"
+          fi
+      - name: Upload ZAP JSON Report
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          name: zapreport
+          path: zap_report.json
+
+  # 📦 === SCA PHASE ===
   dependabot:
     runs-on: ubuntu-latest
-    name: Dependabot
-    needs: secret-scanning
+    name: 📦 SCA: Dependabot
+    needs: build
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -137,41 +162,10 @@ jobs:
           name: dependabot-alerts
           path: dependabot-alerts.json
 
-  # === DAST PHASE ===
-  zap_scan:
-    runs-on: ubuntu-latest
-    name: OWSAP ZAP
-    needs: dependabot
-    steps:
-      - name: Check out Git repository
-        uses: actions/checkout@v4
-      - name: ZAP Scan
-        uses: zaproxy/action-baseline@v0.14.0
-        with:
-          token: ${{ secrets.PAT_TOKEN }}
-          target: 'https://preview.owasp-juice.shop'
-          cmd_options: '-J zap_report.json -w zap_report.md'
-      
-      - name: Updating issues 
-        env:
-          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
-        run: |
-          ISSUE_TITLE="ZAP Scan Baseline Report"
-          ISSUE_BODY="$(cat zap_report.md)"
-          # Try to find an existing open issue with the same title
-          ISSUE_NUMBER=$(gh issue list --state open --search "$ISSUE_TITLE" --json number,title | jq -r '.[] | select(.title=="'"$ISSUE_TITLE"'") | .number')
-          if [ -n "$ISSUE_NUMBER" ]; then
-            echo "Updating existing issue #$ISSUE_NUMBER"
-            gh issue edit "$ISSUE_NUMBER" --body "$ISSUE_BODY"
-          else
-            echo "Creating new issue"
-            gh issue create --title "$ISSUE_TITLE" --body "$ISSUE_BODY"
-          fi
-
   # === REPORTING ===
   combine-alerts:
     runs-on: ubuntu-latest
-    name: Scanning Report
+    name: 📊 Scanning Report
     needs: [secret-scanning, dependabot, zap_scan, code-scanning]
     steps:
       - name: Checkout repository
@@ -215,7 +209,6 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
-          
       - name: Add Power BI Dashboard Link to Summary
         run: |
           echo "## 📊 [View Power BI Dashboard](https://app.powerbi.com/groups/me/reports/eebf3c27-59e4-403e-a238-a6fb14845a2f/8c95c35c93825071070e?experience=power-bi)" >> $GITHUB_STEP_SUMMARY
