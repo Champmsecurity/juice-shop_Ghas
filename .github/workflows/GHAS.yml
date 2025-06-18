@@ -83,7 +83,7 @@ jobs:
   secret-scanning:
     runs-on: ubuntu-latest
     name: 🛡️ SAST-Secret Scanning
-    needs: [codeql, semgrep]
+    needs: build
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
