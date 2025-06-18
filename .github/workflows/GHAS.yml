@@ -27,7 +27,7 @@ jobs:
   codeql:
     runs-on: ubuntu-latest
     name: 🛡️ SAST-CodeQL
-    needs: code_scanning
+    needs: build
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -41,7 +41,7 @@ jobs:
   semgrep:
     runs-on: ubuntu-latest
     name: 🛡️ SAST-Semgrep
-    needs: code_scanning
+    needs: build
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -60,7 +60,7 @@ jobs:
   code_scanning:
     runs-on: ubuntu-latest
     name: 🛡️ SAST-Codescanning
-    needs: build
+    needs: [codeql,semgrep]
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -142,7 +142,7 @@ jobs:
   dependabot:
     runs-on: ubuntu-latest
     name: 📦 SCA-Dependabot
-    needs: secret_scanning
+    needs: secret-scanning
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
