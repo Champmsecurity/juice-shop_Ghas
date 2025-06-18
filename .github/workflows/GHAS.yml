@@ -12,9 +12,30 @@ permissions:
   issues: write
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      # Add your build steps here, e.g.:
+      # - name: Install dependencies
+      #   run: npm install
+
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy
+    needs: build
+    steps:
+      - name: Deploy Step Placeholder
+        run: echo "Deploy your app here"
+      # Add your actual deployment steps here
+
+  # === SAST PHASE ===
   codeql:
     runs-on: ubuntu-latest
     name: Code QL
+    needs: build
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -28,6 +49,7 @@ jobs:
   semgrep:
     runs-on: ubuntu-latest
     name: Semgrep
+    needs: build
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -37,7 +59,6 @@ jobs:
           Config: auto
           generateSarif: "1"
         continue-on-error: true
-
       - name: Upload SARIF file
         if: always()
         uses: github/codeql-action/upload-sarif@v3
@@ -68,9 +89,11 @@ jobs:
           name: code-scanning-alerts
           path: code-scanning-alerts.json
 
+  # === SCA PHASE ===
   secret-scanning:
     runs-on: ubuntu-latest
     name: Secret Scanning
+    needs: build
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -91,6 +114,7 @@ jobs:
   dependabot:
     runs-on: ubuntu-latest
     name: Dependabot
+    needs: build
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -113,9 +137,11 @@ jobs:
           name: dependabot-alerts
           path: dependabot-alerts.json
 
+  # === DAST PHASE ===
   zap_scan:
     runs-on: ubuntu-latest
     name: OWSAP ZAP
+    needs: deploy
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v4
@@ -125,9 +151,8 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           target: 'https://preview.owasp-juice.shop'
           cmd_options: '-J zap_report.json -w zap_report.md'
-          
-      #updating Issues to github repo 
-      - name: Create or Update ZAP Scan Issue
+      
+      - name: Updating issues 
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
@@ -142,12 +167,8 @@ jobs:
             echo "Creating new issue"
             gh issue create --title "$ISSUE_TITLE" --body "$ISSUE_BODY"
           fi
-      - name: Upload ZAP JSON Report
-        uses: actions/upload-artifact@v4.6.2
-        with:
-          name: zapreport
-          path: zap_report.json
 
+  # === REPORTING ===
   combine-alerts:
     runs-on: ubuntu-latest
     name: Scanning Report
