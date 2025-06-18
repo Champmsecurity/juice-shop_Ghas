@@ -35,7 +35,7 @@ jobs:
   codeql:
     runs-on: ubuntu-latest
     name: Code QL
-    needs: build
+    needs: deploy
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -48,7 +48,7 @@ jobs:
 
   semgrep:
     runs-on: ubuntu-latest
-    name: Semgrep
+    name: deploy
     needs: build
     steps:
       - name: Checkout Repository
@@ -68,7 +68,7 @@ jobs:
   code-scanning:
     runs-on: ubuntu-latest
     name: SAST Activities
-    needs: [deploy, codeql, semgrep]
+    needs: [codeql, semgrep]
     steps:
       - name: Fetch Code Scanning Alerts
         run: |
@@ -93,7 +93,7 @@ jobs:
   secret-scanning:
     runs-on: ubuntu-latest
     name: Secret Scanning
-    needs: [deploy,code-scanning]
+    needs: deploy
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -114,7 +114,7 @@ jobs:
   dependabot:
     runs-on: ubuntu-latest
     name: Dependabot
-    needs: build
+    needs: secret-scanning
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -141,7 +141,7 @@ jobs:
   zap_scan:
     runs-on: ubuntu-latest
     name: OWSAP ZAP
-    needs: deploy
+    needs: dependabot
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v4
