@@ -92,7 +92,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected a hardcoded hmac key. Avoid hardcoding secrets and consider using an alternate option such as reading the secret from a config file or using an environment variable."
         },
@@ -146,7 +146,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected a hardcoded hmac key. Avoid hardcoding secrets and consider using an alternate option such as reading the secret from a config file or using an environment variable."
         },
@@ -200,7 +200,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected usage of the `notevil` package, which is unmaintained and has vulnerabilities. Using any sort of `eval()` functionality can be very dangerous, but if you must, the `eval` package is an up to date alternative. Be sure that only trusted input reaches an `eval()` function."
         },
@@ -255,7 +255,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Directory listing/indexing is enabled, which may lead to disclosure of sensitive directories and files. It is recommended to disable directory listing unless it is a public resource. If you need directory listing, ensure that sensitive files are inaccessible when querying the resource."
         },
@@ -310,7 +310,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Directory listing/indexing is enabled, which may lead to disclosure of sensitive directories and files. It is recommended to disable directory listing unless it is a public resource. If you need directory listing, ensure that sensitive files are inaccessible when querying the resource."
         },
@@ -365,7 +365,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Directory listing/indexing is enabled, which may lead to disclosure of sensitive directories and files. It is recommended to disable directory listing unless it is a public resource. If you need directory listing, ensure that sensitive files are inaccessible when querying the resource."
         },
@@ -420,7 +420,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Directory listing/indexing is enabled, which may lead to disclosure of sensitive directories and files. It is recommended to disable directory listing unless it is a public resource. If you need directory listing, ensure that sensitive files are inaccessible when querying the resource."
         },
@@ -475,7 +475,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected a call to `replaceAll()` in an attempt to HTML escape the string `tableData[i].description.replaceAll('<', '&lt;')`. Manually sanitizing input through a manually built list can be circumvented in many situations, and it's better to use a well known sanitization library such as `sanitize-html` or `DOMPurify`."
         },
@@ -530,7 +530,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected a call to `replaceAll()` in an attempt to HTML escape the string `tableData[i].description`. Manually sanitizing input through a manually built list can be circumvented in many situations, and it's better to use a well known sanitization library such as `sanitize-html` or `DOMPurify`."
         },
@@ -585,7 +585,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected a sequelize statement that is tainted by user-input. This could lead to SQL injection if the variable is user-controlled and is not properly sanitized. In order to prevent SQL injection, it is recommended to use parameterized queries or prepared statements."
         },
@@ -640,7 +640,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected a sequelize statement that is tainted by user-input. This could lead to SQL injection if the variable is user-controlled and is not properly sanitized. In order to prevent SQL injection, it is recommended to use parameterized queries or prepared statements."
         },
@@ -695,7 +695,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected a sequelize statement that is tainted by user-input. This could lead to SQL injection if the variable is user-controlled and is not properly sanitized. In order to prevent SQL injection, it is recommended to use parameterized queries or prepared statements."
         },
@@ -750,7 +750,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected a sequelize statement that is tainted by user-input. This could lead to SQL injection if the variable is user-controlled and is not properly sanitized. In order to prevent SQL injection, it is recommended to use parameterized queries or prepared statements."
         },
@@ -805,7 +805,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected a sequelize statement that is tainted by user-input. This could lead to SQL injection if the variable is user-controlled and is not properly sanitized. In order to prevent SQL injection, it is recommended to use parameterized queries or prepared statements."
         },
@@ -860,7 +860,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected a sequelize statement that is tainted by user-input. This could lead to SQL injection if the variable is user-controlled and is not properly sanitized. In order to prevent SQL injection, it is recommended to use parameterized queries or prepared statements."
         },
@@ -914,7 +914,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "The application processes user-input, this is passed to res.sendFile which can allow an attacker to arbitrarily read files on the system through path traversal. It is recommended to perform input validation in addition to canonicalizing the path. This allows you to validate the path against the intended directory it should be accessing."
         },
@@ -968,7 +968,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "The application processes user-input, this is passed to res.sendFile which can allow an attacker to arbitrarily read files on the system through path traversal. It is recommended to perform input validation in addition to canonicalizing the path. This allows you to validate the path against the intended directory it should be accessing."
         },
@@ -1022,7 +1022,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "The application processes user-input, this is passed to res.sendFile which can allow an attacker to arbitrarily read files on the system through path traversal. It is recommended to perform input validation in addition to canonicalizing the path. This allows you to validate the path against the intended directory it should be accessing."
         },
@@ -1076,7 +1076,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "The application processes user-input, this is passed to res.sendFile which can allow an attacker to arbitrarily read files on the system through path traversal. It is recommended to perform input validation in addition to canonicalizing the path. This allows you to validate the path against the intended directory it should be accessing."
         },
@@ -1130,7 +1130,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "The application redirects to a URL specified by user-supplied input `query` that is not validated. This could redirect users to malicious locations. Consider using an allow-list approach to validate URLs, or warn users they are being redirected to a third-party website."
         },
@@ -1185,7 +1185,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected use of parseXml() function with the `noent` field set to `true`. This can lead to an XML External Entities (XXE) attack if untrusted data is passed into it."
         },
@@ -1240,7 +1240,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "User data flows into the host portion of this manually-constructed HTML. This can introduce a Cross-Site-Scripting (XSS) vulnerability if this comes from user-provided input. Consider using a sanitization library such as DOMPurify to sanitize the HTML within."
         },
@@ -1294,7 +1294,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This tag is missing an 'integrity' subresource integrity attribute. The 'integrity' attribute allows for the browser to verify that externally hosted files (for example from a CDN) are delivered without unexpected manipulation. Without this attribute, if an attacker can modify the externally hosted resource, this could lead to XSS and other types of attacks. To prevent this, include the base64-encoded cryptographic hash of the resource (file) you’re telling the browser to fetch in the 'integrity' attribute for all externally hosted files."
         },
@@ -1348,7 +1348,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This tag is missing an 'integrity' subresource integrity attribute. The 'integrity' attribute allows for the browser to verify that externally hosted files (for example from a CDN) are delivered without unexpected manipulation. Without this attribute, if an attacker can modify the externally hosted resource, this could lead to XSS and other types of attacks. To prevent this, include the base64-encoded cryptographic hash of the resource (file) you’re telling the browser to fetch in the 'integrity' attribute for all externally hosted files."
         },
@@ -1402,7 +1402,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This tag is missing an 'integrity' subresource integrity attribute. The 'integrity' attribute allows for the browser to verify that externally hosted files (for example from a CDN) are delivered without unexpected manipulation. Without this attribute, if an attacker can modify the externally hosted resource, this could lead to XSS and other types of attacks. To prevent this, include the base64-encoded cryptographic hash of the resource (file) you’re telling the browser to fetch in the 'integrity' attribute for all externally hosted files."
         },
@@ -1456,7 +1456,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected string concatenation with a non-literal variable in a util.format / console.log function. If an attacker injects a format specifier in the string, it will forge the log message. Try to use constant values for the format string."
         },
@@ -1510,7 +1510,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Possibility of prototype polluting function detected. By adding or modifying attributes of an object prototype, it is possible to create attributes that exist on every object, or replace critical attributes with malicious ones. This can be problematic if the software depends on existence or non-existence of certain attributes, or uses pre-defined attributes of object prototype (such as hasOwnProperty, toString or valueOf). Possible mitigations might be: freezing the object prototype, using an object without prototypes (via Object.create(null) ), blocking modifications of attributes that resolve to object prototype, using Map instead of object."
         },
@@ -1564,7 +1564,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Found data from an Express or Next web request flowing to `eval`. If this data is user-controllable this can lead to execution of arbitrary system commands in the context of your application process. Avoid `eval` whenever possible."
         },
@@ -1618,7 +1618,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "JWT token detected"
         },
@@ -1674,7 +1674,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "JWT token detected"
         },
@@ -1730,7 +1730,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "JWT token detected"
         },
@@ -1787,7 +1787,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "RegExp() called with a `challengeKey` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
         },
@@ -1842,7 +1842,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "RegExp() called with a `challengeKey` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
         },
@@ -1897,7 +1897,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Cannot determine what 'subs' is and it is used with a '<script>' tag. This could be susceptible to cross-site scripting (XSS). Ensure 'subs' is not externally controlled, or sanitize this data."
         },
@@ -1951,7 +1951,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "A hard-coded credential was detected. It is not recommended to store credentials in source-code, as this risks secrets being leaked and used by either an internal or external malicious adversary. It is recommended to use environment variables to securely provide credentials or retrieve credentials from a secure vault or HSM (Hardware Security Module)."
         },
@@ -2006,7 +2006,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected an explicit unescape in a Pug template, using either '!=' or '!{...}'. If external data can reach these locations, your application is exposed to a cross-site scripting (XSS) vulnerability. If you must do this, ensure no external data can reach this location."
         },
@@ -2061,7 +2061,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "User controlled data in methods like `innerHTML`, `outerHTML` or `document.write` is an anti-pattern that can lead to XSS vulnerabilities"
         },
@@ -2116,7 +2116,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "User controlled data in methods like `innerHTML`, `outerHTML` or `document.write` is an anti-pattern that can lead to XSS vulnerabilities"
         },
@@ -2170,7 +2170,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
         },
@@ -2224,7 +2224,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
         },
@@ -2278,7 +2278,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:semgrep",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Generic Secret detected"
         },
@@ -2330,7 +2330,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Route handler for GET requests uses query parameter as sensitive data."
         },
@@ -2382,7 +2382,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Route handler for GET requests uses query parameter as sensitive data."
         },
@@ -2434,7 +2434,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Route handler for GET requests uses query parameter as sensitive data."
         },
@@ -2488,7 +2488,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This query object depends on a user-provided value.\nThis query object depends on a user-provided value."
         },
@@ -2542,7 +2542,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This query string depends on a user-provided value."
         },
@@ -2596,7 +2596,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This query string depends on a user-provided value.\nThis query string depends on a user-provided value."
         },
@@ -2650,7 +2650,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This query object depends on a user-provided value.\nThis query object depends on a user-provided value."
         },
@@ -2704,7 +2704,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This query object depends on a user-provided value.\nThis query object depends on a user-provided value."
         },
@@ -2758,7 +2758,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This query object depends on a user-provided value.\nThis query object depends on a user-provided value."
         },
@@ -2812,7 +2812,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This query object depends on a user-provided value.\nThis query object depends on a user-provided value."
         },
@@ -2869,7 +2869,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This assignment may alter Object.prototype if a malicious '__proto__' string is injected from user controlled input.\nThis assignment may alter Object.prototype if a malicious '__proto__' string is injected from user controlled input."
         },
@@ -2921,7 +2921,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Password from an access to password is hashed insecurely.\nPassword from an access to password is hashed insecurely.\nPassword from an access to clearTextPassword is hashed insecurely.\nPassword from an access to password is hashed insecurely.\nPassword from an access to password is hashed insecurely.\nPassword from an access to currentPassword is hashed insecurely.\nPassword from an access to currentPassword is hashed insecurely.\nPassword from an access to password is hashed insecurely."
         },
@@ -2973,7 +2973,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This cookie middleware is serving a request handler without CSRF protection.\nThis cookie middleware is serving a request handler without CSRF protection.\nThis cookie middleware is serving a request handler without CSRF protection.\nThis cookie middleware is serving a request handler without CSRF protection.\nThis cookie middleware is serving a request handler without CSRF protection."
         },
@@ -3025,7 +3025,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Untrusted URL redirection depends on a user-provided value."
         },
@@ -3078,7 +3078,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Cross-site scripting vulnerability due to user-provided value."
         },
@@ -3132,7 +3132,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited.\nThis route handler performs a file system access, but is not rate-limited."
         },
@@ -3186,7 +3186,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited.\nThis route handler performs a file system access, but is not rate-limited."
         },
@@ -3240,7 +3240,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -3294,7 +3294,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -3348,7 +3348,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -3402,7 +3402,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited.\nThis route handler performs a file system access, but is not rate-limited.\nThis route handler performs a file system access, but is not rate-limited.\nThis route handler performs a file system access, but is not rate-limited.\nThis route handler performs a file system access, but is not rate-limited."
         },
@@ -3456,7 +3456,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -3510,7 +3510,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -3564,7 +3564,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -3618,7 +3618,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -3672,7 +3672,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited.\nThis route handler performs a database access, but is not rate-limited.\nThis route handler performs a database access, but is not rate-limited.\nThis route handler performs a database access, but is not rate-limited."
         },
@@ -3726,7 +3726,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -3780,7 +3780,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -3834,7 +3834,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -3888,7 +3888,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -3942,7 +3942,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -3996,7 +3996,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -4050,7 +4050,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -4104,7 +4104,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -4158,7 +4158,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -4212,7 +4212,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -4266,7 +4266,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -4320,7 +4320,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a database access, but is not rate-limited."
         },
@@ -4374,7 +4374,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -4428,7 +4428,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -4482,7 +4482,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -4536,7 +4536,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -4590,7 +4590,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -4644,7 +4644,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -4698,7 +4698,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -4752,7 +4752,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -4806,7 +4806,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -4860,7 +4860,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -4914,7 +4914,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs a file system access, but is not rate-limited."
         },
@@ -4968,7 +4968,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This route handler performs authorization, but is not rate-limited."
         },
@@ -5020,7 +5020,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "The URL of this request depends on a user-provided value."
         },
@@ -5072,7 +5072,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Script loaded from content delivery network with no integrity check."
         },
@@ -5124,7 +5124,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Script loaded from content delivery network with no integrity check."
         },
@@ -5176,7 +5176,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This uses a cryptographically insecure random number generated at Math.random() in a security context."
         },
@@ -5229,7 +5229,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Template object depends on a user-provided value.\nTemplate object depends on a user-provided value."
         },
@@ -5282,7 +5282,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Template object depends on a user-provided value.\nTemplate object depends on a user-provided value."
         },
@@ -5338,7 +5338,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5394,7 +5394,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5450,7 +5450,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5506,7 +5506,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5562,7 +5562,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5618,7 +5618,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5674,7 +5674,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5730,7 +5730,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5786,7 +5786,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5842,7 +5842,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5898,7 +5898,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This path depends on a user-provided value."
         },
@@ -5950,7 +5950,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Unsanitized archive entry, which may contain '..', is used in a file system operation."
         },
@@ -6004,7 +6004,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This logs sensitive data returned by an access to changePasswordBenderChallenge as clear text.\nThis logs sensitive data returned by an access to weakPasswordChallenge as clear text.\nThis logs sensitive data returned by an access to dlpPasswordSprayingChallenge as clear text.\nThis logs sensitive data returned by an access to oauthUserPasswordChallenge as clear text.\nThis logs sensitive data returned by an access to resetPasswordJimChallenge as clear text.\nThis logs sensitive data returned by an access to resetPasswordBenderChallenge as clear text.\nThis logs sensitive data returned by an access to resetPasswordBjoernChallenge as clear text.\nThis logs sensitive data returned by an access to resetPasswordMortyChallenge as clear text.\nThis logs sensitive data returned by an access to resetPasswordBjoernOwaspChallenge as clear text.\nThis logs sensitive data returned by an access to resetPasswordUvoginChallenge as clear text.\nThis logs sensitive data returned by an access to passwordRepeatChallenge as clear text."
         },
@@ -6057,7 +6057,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "The server of this route handler will terminate when an uncaught exception from this location escapes an asynchronous callback."
         },
@@ -6112,7 +6112,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This replaces only the first occurrence of '..'."
         },
@@ -6167,7 +6167,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This does not escape backslash characters in the input."
         },
@@ -6222,7 +6222,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This replaces only the first occurrence of /\"|'|;|and|or/i."
         },
@@ -6275,7 +6275,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "'://htmledit.squarefree.com' can be anywhere in the URL, and arbitrary hosts may come before or after it."
         },
@@ -6328,7 +6328,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "'://htmledit.squarefree.com' can be anywhere in the URL, and arbitrary hosts may come before or after it."
         },
@@ -6383,7 +6383,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This code execution depends on a user-provided value.\nThis code execution depends on a user-provided value."
         },
@@ -6438,7 +6438,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This code execution depends on a user-provided value."
         },
@@ -6490,7 +6490,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Potential type confusion as this HTTP request parameter may be either an array or a string."
         },
@@ -6542,7 +6542,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "Potential type confusion as this HTTP request parameter may be either an array or a string."
         },
@@ -6596,7 +6596,7 @@
         "environment": "{}",
         "category": ".github/workflows/GHAS.yml:codeql",
         "state": "open",
-        "commit_sha": "532b32f84c5722ea8cc1eb62ff5606fc20731320",
+        "commit_sha": "101969a93b71ea4e8f4d0a45f17bf90037ba74f1",
         "message": {
           "text": "This regular expression that depends on a user-provided value may run slow on strings with many repetitions of 'a'."
         },
@@ -8541,7 +8541,7 @@
   "zap": {
     "@programName": "ZAP",
     "@version": "2.16.1",
-    "@generated": "Thu, 19 Jun 2025 07:55:03",
+    "@generated": "Thu, 19 Jun 2025 09:25:41",
     "site": [
       {
         "@name": "https://preview.owasp-juice.shop",
@@ -8569,7 +8569,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "112",
+                "id": "107",
                 "uri": "https://preview.owasp-juice.shop/",
                 "method": "GET",
                 "param": "",
@@ -8578,7 +8578,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "108",
+                "id": "111",
                 "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
                 "method": "GET",
                 "param": "",
@@ -8596,7 +8596,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "86",
+                "id": "87",
                 "uri": "https://preview.owasp-juice.shop/ftp/coupons_2013.md.bak",
                 "method": "GET",
                 "param": "",
@@ -8605,7 +8605,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "88",
+                "id": "86",
                 "uri": "https://preview.owasp-juice.shop/ftp/eastere.gg",
                 "method": "GET",
                 "param": "",
@@ -8614,7 +8614,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "97",
+                "id": "91",
                 "uri": "https://preview.owasp-juice.shop/ftp/encrypt.pyc",
                 "method": "GET",
                 "param": "",
@@ -8623,7 +8623,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "99",
+                "id": "103",
                 "uri": "https://preview.owasp-juice.shop/ftp/package-lock.json.bak",
                 "method": "GET",
                 "param": "",
@@ -8632,7 +8632,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "96",
+                "id": "100",
                 "uri": "https://preview.owasp-juice.shop/ftp/package.json.bak",
                 "method": "GET",
                 "param": "",
@@ -8641,7 +8641,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "106",
+                "id": "104",
                 "uri": "https://preview.owasp-juice.shop/ftp/suspicious_errors.yml",
                 "method": "GET",
                 "param": "",
@@ -8665,7 +8665,7 @@
             "reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
             "cweid": "693",
             "wascid": "15",
-            "sourceid": "6"
+            "sourceid": "1"
           },
           {
             "pluginid": "10098",
@@ -8687,7 +8687,7 @@
                 "otherinfo": "The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing."
               },
               {
-                "id": "0",
+                "id": "1",
                 "uri": "https://preview.owasp-juice.shop/assets/public/favicon_js.ico",
                 "method": "GET",
                 "param": "",
@@ -8705,8 +8705,8 @@
                 "otherinfo": "The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing."
               },
               {
-                "id": "90",
-                "uri": "https://preview.owasp-juice.shop/ftp/acquisitions.md",
+                "id": "92",
+                "uri": "https://preview.owasp-juice.shop/ftp/eastere.gg",
                 "method": "GET",
                 "param": "",
                 "attack": "",
@@ -8714,7 +8714,7 @@
                 "otherinfo": "The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing."
               },
               {
-                "id": "89",
+                "id": "88",
                 "uri": "https://preview.owasp-juice.shop/ftp/incident-support.kdbx",
                 "method": "GET",
                 "param": "",
@@ -8792,7 +8792,7 @@
             "reference": "<p>https://vulncat.fortify.com/en/detail?id=desc.config.dotnet.html5_overly_permissive_cors_policy</p>",
             "cweid": "264",
             "wascid": "14",
-            "sourceid": "6"
+            "sourceid": "1"
           },
           {
             "pluginid": "10017",
@@ -8823,35 +8823,17 @@
                 "otherinfo": ""
               },
               {
-                "id": "113",
+                "id": "108",
                 "uri": "https://preview.owasp-juice.shop/",
                 "method": "GET",
                 "param": "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js",
                 "attack": "",
                 "evidence": "<script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js\"></script>",
-                "otherinfo": ""
-              },
-              {
-                "id": "114",
-                "uri": "https://preview.owasp-juice.shop/",
-                "method": "GET",
-                "param": "//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js",
-                "attack": "",
-                "evidence": "<script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>",
                 "otherinfo": ""
               },
               {
                 "id": "109",
-                "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
-                "method": "GET",
-                "param": "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js",
-                "attack": "",
-                "evidence": "<script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js\"></script>",
-                "otherinfo": ""
-              },
-              {
-                "id": "110",
-                "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
+                "uri": "https://preview.owasp-juice.shop/",
                 "method": "GET",
                 "param": "//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js",
                 "attack": "",
@@ -8859,8 +8841,8 @@
                 "otherinfo": ""
               },
               {
-                "id": "116",
-                "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:365:14",
+                "id": "118",
+                "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:43:13",
                 "method": "GET",
                 "param": "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js",
                 "attack": "",
@@ -8868,8 +8850,26 @@
                 "otherinfo": ""
               },
               {
-                "id": "117",
-                "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:365:14",
+                "id": "119",
+                "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:43:13",
+                "method": "GET",
+                "param": "//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js",
+                "attack": "",
+                "evidence": "<script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>",
+                "otherinfo": ""
+              },
+              {
+                "id": "112",
+                "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
+                "method": "GET",
+                "param": "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js",
+                "attack": "",
+                "evidence": "<script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js\"></script>",
+                "otherinfo": ""
+              },
+              {
+                "id": "113",
+                "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
                 "method": "GET",
                 "param": "//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js",
                 "attack": "",
@@ -8901,7 +8901,7 @@
             "reference": "",
             "cweid": "829",
             "wascid": "15",
-            "sourceid": "6"
+            "sourceid": "1"
           },
           {
             "pluginid": "10110",
@@ -8951,7 +8951,7 @@
             "desc": "<p>The header has now been renamed to Permissions-Policy.</p>",
             "instances": [
               {
-                "id": "54",
+                "id": "48",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "",
@@ -8969,7 +8969,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "98",
+                "id": "96",
                 "uri": "https://preview.owasp-juice.shop/ftp/eastere.gg",
                 "method": "GET",
                 "param": "",
@@ -8978,7 +8978,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "102",
+                "id": "99",
                 "uri": "https://preview.owasp-juice.shop/ftp/encrypt.pyc",
                 "method": "GET",
                 "param": "",
@@ -9014,7 +9014,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "48",
+                "id": "51",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "",
@@ -9038,7 +9038,7 @@
             "reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://scotthelme.co.uk/goodbye-feature-policy-and-hello-permissions-policy/</p>",
             "cweid": "16",
             "wascid": "15",
-            "sourceid": "1"
+            "sourceid": "6"
           },
           {
             "pluginid": "90004",
@@ -9051,7 +9051,7 @@
             "desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
             "instances": [
               {
-                "id": "55",
+                "id": "50",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "Cross-Origin-Embedder-Policy",
@@ -9060,7 +9060,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "120",
+                "id": "116",
                 "uri": "https://preview.owasp-juice.shop/",
                 "method": "GET",
                 "param": "Cross-Origin-Embedder-Policy",
@@ -9069,7 +9069,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "122",
+                "id": "121",
                 "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
                 "method": "GET",
                 "param": "Cross-Origin-Embedder-Policy",
@@ -9087,7 +9087,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "49",
+                "id": "54",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "Cross-Origin-Embedder-Policy",
@@ -9096,7 +9096,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "56",
+                "id": "53",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "Cross-Origin-Opener-Policy",
@@ -9105,7 +9105,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "121",
+                "id": "117",
                 "uri": "https://preview.owasp-juice.shop/",
                 "method": "GET",
                 "param": "Cross-Origin-Opener-Policy",
@@ -9114,7 +9114,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "123",
+                "id": "122",
                 "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
                 "method": "GET",
                 "param": "Cross-Origin-Opener-Policy",
@@ -9132,7 +9132,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "50",
+                "id": "55",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "Cross-Origin-Opener-Policy",
@@ -9147,7 +9147,7 @@
             "reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy</p>",
             "cweid": "693",
             "wascid": "14",
-            "sourceid": "1"
+            "sourceid": "6"
           },
           {
             "pluginid": "10063",
@@ -9169,16 +9169,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "104",
-                "uri": "https://preview.owasp-juice.shop/ftp/package-lock.json.bak",
-                "method": "GET",
-                "param": "",
-                "attack": "",
-                "evidence": "",
-                "otherinfo": ""
-              },
-              {
-                "id": "103",
+                "id": "102",
                 "uri": "https://preview.owasp-juice.shop/ftp/package.json.bak",
                 "method": "GET",
                 "param": "",
@@ -9187,7 +9178,7 @@
                 "otherinfo": ""
               }
             ],
-            "count": "3",
+            "count": "2",
             "solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Permissions-Policy header.</p>",
             "otherinfo": "",
             "reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
@@ -9206,7 +9197,7 @@
             "desc": "<p>The web/application server is leaking version information via the \"Server\" HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.</p>",
             "instances": [
               {
-                "id": "94",
+                "id": "89",
                 "uri": "https://preview.owasp-juice.shop/ftp/coupons_2013.md.bak",
                 "method": "GET",
                 "param": "",
@@ -9215,7 +9206,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "101",
+                "id": "105",
                 "uri": "https://preview.owasp-juice.shop/ftp/package-lock.json.bak",
                 "method": "GET",
                 "param": "",
@@ -9224,7 +9215,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "100",
+                "id": "101",
                 "uri": "https://preview.owasp-juice.shop/ftp/package.json.bak",
                 "method": "GET",
                 "param": "",
@@ -9279,17 +9270,8 @@
                 "otherinfo": ""
               },
               {
-                "id": "92",
-                "uri": "https://preview.owasp-juice.shop/ftp/acquisitions.md",
-                "method": "GET",
-                "param": "",
-                "attack": "",
-                "evidence": "",
-                "otherinfo": ""
-              },
-              {
-                "id": "91",
-                "uri": "https://preview.owasp-juice.shop/ftp/incident-support.kdbx",
+                "id": "90",
+                "uri": "https://preview.owasp-juice.shop/ftp/coupons_2013.md.bak",
                 "method": "GET",
                 "param": "",
                 "attack": "",
@@ -9360,13 +9342,13 @@
                 "otherinfo": ""
               }
             ],
-            "count": "12",
+            "count": "11",
             "solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to enforce Strict-Transport-Security.</p>",
             "otherinfo": "",
             "reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
             "cweid": "319",
             "wascid": "15",
-            "sourceid": "1"
+            "sourceid": "6"
           },
           {
             "pluginid": "10096",
@@ -9379,7 +9361,7 @@
             "desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
             "instances": [
               {
-                "id": "37",
+                "id": "39",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "",
@@ -9388,7 +9370,7 @@
                 "otherinfo": "1650485437, which evaluates to: 2022-04-20 20:10:37."
               },
               {
-                "id": "43",
+                "id": "42",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "",
@@ -9397,7 +9379,7 @@
                 "otherinfo": "1981395349, which evaluates to: 2032-10-14 19:35:49."
               },
               {
-                "id": "39",
+                "id": "40",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "",
@@ -9406,13 +9388,13 @@
                 "otherinfo": "2038834951, which evaluates to: 2034-08-10 15:02:31."
               },
               {
-                "id": "33",
+                "id": "34",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "Reporting-Endpoints",
                 "attack": "",
-                "evidence": "1750319681",
-                "otherinfo": "1750319681, which evaluates to: 2025-06-19 07:54:41."
+                "evidence": "1750325119",
+                "otherinfo": "1750325119, which evaluates to: 2025-06-19 09:25:19."
               },
               {
                 "id": "5",
@@ -9420,8 +9402,8 @@
                 "method": "GET",
                 "param": "Reporting-Endpoints",
                 "attack": "",
-                "evidence": "1750319681",
-                "otherinfo": "1750319681, which evaluates to: 2025-06-19 07:54:41."
+                "evidence": "1750325120",
+                "otherinfo": "1750325120, which evaluates to: 2025-06-19 09:25:20."
               },
               {
                 "id": "6",
@@ -9429,8 +9411,8 @@
                 "method": "GET",
                 "param": "Reporting-Endpoints",
                 "attack": "",
-                "evidence": "1750319681",
-                "otherinfo": "1750319681, which evaluates to: 2025-06-19 07:54:41."
+                "evidence": "1750325120",
+                "otherinfo": "1750325120, which evaluates to: 2025-06-19 09:25:20."
               },
               {
                 "id": "11",
@@ -9438,8 +9420,8 @@
                 "method": "GET",
                 "param": "Reporting-Endpoints",
                 "attack": "",
-                "evidence": "1750319682",
-                "otherinfo": "1750319682, which evaluates to: 2025-06-19 07:54:42."
+                "evidence": "1750325120",
+                "otherinfo": "1750325120, which evaluates to: 2025-06-19 09:25:20."
               },
               {
                 "id": "44",
@@ -9469,13 +9451,13 @@
                 "otherinfo": "2038834951, which evaluates to: 2034-08-10 15:02:31."
               },
               {
-                "id": "38",
+                "id": "37",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "Reporting-Endpoints",
                 "attack": "",
-                "evidence": "1750319681",
-                "otherinfo": "1750319681, which evaluates to: 2025-06-19 07:54:41."
+                "evidence": "1750325120",
+                "otherinfo": "1750325120, which evaluates to: 2025-06-19 09:25:20."
               }
             ],
             "count": "11",
@@ -9543,7 +9525,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "118",
+                "id": "114",
                 "uri": "https://preview.owasp-juice.shop/",
                 "method": "GET",
                 "param": "",
@@ -9552,7 +9534,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "127",
+                "id": "123",
                 "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:43:13",
                 "method": "GET",
                 "param": "",
@@ -9561,7 +9543,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "119",
+                "id": "120",
                 "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
                 "method": "GET",
                 "param": "",
@@ -9570,7 +9552,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "130",
+                "id": "129",
                 "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:286:9",
                 "method": "GET",
                 "param": "",
@@ -9579,7 +9561,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "129",
+                "id": "127",
                 "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:328:13",
                 "method": "GET",
                 "param": "",
@@ -9588,7 +9570,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "124",
+                "id": "126",
                 "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:365:14",
                 "method": "GET",
                 "param": "",
@@ -9597,7 +9579,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "131",
+                "id": "130",
                 "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:376:14",
                 "method": "GET",
                 "param": "",
@@ -9606,7 +9588,7 @@
                 "otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
               },
               {
-                "id": "132",
+                "id": "131",
                 "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:421:3",
                 "method": "GET",
                 "param": "",
@@ -9639,7 +9621,35 @@
             "reference": "",
             "cweid": "-1",
             "wascid": "-1",
-            "sourceid": "6"
+            "sourceid": "1"
+          },
+          {
+            "pluginid": "10049",
+            "alertRef": "10049",
+            "alert": "Non-Storable Content",
+            "name": "Non-Storable Content",
+            "riskcode": "0",
+            "confidence": "2",
+            "riskdesc": "Informational (Medium)",
+            "desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
+            "instances": [
+              {
+                "id": "94",
+                "uri": "https://preview.owasp-juice.shop/ftp/coupons_2013.md.bak",
+                "method": "GET",
+                "param": "",
+                "attack": "",
+                "evidence": "403",
+                "otherinfo": ""
+              }
+            ],
+            "count": "1",
+            "solution": "<p>The content may be marked as storable by ensuring that the following conditions are satisfied:</p><p>The request method must be understood by the cache and defined as being cacheable (\"GET\", \"HEAD\", and \"POST\" are currently defined as cacheable)</p><p>The response status code must be understood by the cache (one of the 1XX, 2XX, 3XX, 4XX, or 5XX response classes are generally understood)</p><p>The \"no-store\" cache directive must not appear in the request or response header fields</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"private\" response directive must not appear in the response</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"Authorization\" header field must not appear in the request, unless the response explicitly allows it (using one of the \"must-revalidate\", \"public\", or \"s-maxage\" Cache-Control response directives)</p><p>In addition to the conditions above, at least one of the following conditions must also be satisfied by the response:</p><p>It must contain an \"Expires\" header field</p><p>It must contain a \"max-age\" response directive</p><p>For \"shared\" caches such as \"proxy\" caches, it must contain a \"s-maxage\" response directive</p><p>It must contain a \"Cache Control Extension\" that allows it to be cached</p><p>It must have a status code that is defined as cacheable by default (200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501).</p>",
+            "otherinfo": "",
+            "reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
+            "cweid": "524",
+            "wascid": "13",
+            "sourceid": "37"
           },
           {
             "pluginid": "10015",
@@ -9661,7 +9671,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "111",
+                "id": "106",
                 "uri": "https://preview.owasp-juice.shop/",
                 "method": "GET",
                 "param": "cache-control",
@@ -9670,7 +9680,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "126",
+                "id": "115",
                 "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:43:13",
                 "method": "GET",
                 "param": "cache-control",
@@ -9679,7 +9689,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "107",
+                "id": "110",
                 "uri": "https://preview.owasp-juice.shop/app/build/routes/fileServer.js:59:18",
                 "method": "GET",
                 "param": "cache-control",
@@ -9688,7 +9698,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "115",
+                "id": "125",
                 "uri": "https://preview.owasp-juice.shop/app/node_modules/express/lib/router/index.js:365:14",
                 "method": "GET",
                 "param": "cache-control",
@@ -9706,7 +9716,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "87",
+                "id": "97",
                 "uri": "https://preview.owasp-juice.shop/ftp/acquisitions.md",
                 "method": "GET",
                 "param": "cache-control",
@@ -9715,7 +9725,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "125",
+                "id": "124",
                 "uri": "https://preview.owasp-juice.shop/ftp/announcement_encrypted.md",
                 "method": "GET",
                 "param": "cache-control",
@@ -9724,12 +9734,21 @@
                 "otherinfo": ""
               },
               {
-                "id": "105",
+                "id": "98",
                 "uri": "https://preview.owasp-juice.shop/ftp/legal.md",
                 "method": "GET",
                 "param": "cache-control",
                 "attack": "",
                 "evidence": "public, max-age=0",
+                "otherinfo": ""
+              },
+              {
+                "id": "0",
+                "uri": "https://preview.owasp-juice.shop/robots.txt",
+                "method": "GET",
+                "param": "cache-control",
+                "attack": "",
+                "evidence": "",
                 "otherinfo": ""
               },
               {
@@ -9742,13 +9761,13 @@
                 "otherinfo": ""
               }
             ],
-            "count": "10",
+            "count": "11",
             "solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
             "otherinfo": "",
             "reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
             "cweid": "525",
             "wascid": "13",
-            "sourceid": "6"
+            "sourceid": "1"
           },
           {
             "pluginid": "10049",
@@ -9770,7 +9789,7 @@
                 "otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
               },
               {
-                "id": "8",
+                "id": "7",
                 "uri": "https://preview.owasp-juice.shop/robots.txt",
                 "method": "GET",
                 "param": "",
@@ -9798,7 +9817,7 @@
             "desc": "<p>The response contents are storable by caching components such as proxy servers, but will not be retrieved directly from the cache, without validating the request upstream, in response to similar requests from other users.</p>",
             "instances": [
               {
-                "id": "52",
+                "id": "47",
                 "uri": "https://preview.owasp-juice.shop",
                 "method": "GET",
                 "param": "",
@@ -9807,7 +9826,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "7",
+                "id": "8",
                 "uri": "https://preview.owasp-juice.shop/assets/public/favicon_js.ico",
                 "method": "GET",
                 "param": "",
@@ -9852,7 +9871,7 @@
                 "otherinfo": ""
               },
               {
-                "id": "47",
+                "id": "49",
                 "uri": "https://preview.owasp-juice.shop/sitemap.xml",
                 "method": "GET",
                 "param": "",
@@ -9885,7 +9904,7 @@
             "reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
             "cweid": "524",
             "wascid": "13",
-            "sourceid": "1"
+            "sourceid": "6"
           }
         ]
       }
