@@ -116,7 +116,7 @@ jobs:
   zap_scan:
     runs-on: ubuntu-latest
     name: 🌐 DAST-ZAP
-    needs: deploy
+    needs: [deploy, run]
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v4
