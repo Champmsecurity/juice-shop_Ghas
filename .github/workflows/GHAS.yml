@@ -146,11 +146,19 @@ jobs:
           name: zapreport
           path: zap_report.json
 
+# 🏃=== Deploy  PHASE ===
+  run:
+    runs-on: ubuntu-latest
+    name: 🏃 Run Phase
+    steps:
+      - name: Run Phase Step Placeholder
+        run: echo "Run your app here"
+
   # 📦 === SCA PHASE ===
   dependabot:
     runs-on: ubuntu-latest
     name: 📦 SCA-Dependabot
-    needs: [secret-scanning]
+    needs: [build, run]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -177,7 +185,7 @@ jobs:
   combine-alerts:
     runs-on: ubuntu-latest
     name: 📊 Scanning Report
-    needs: [dependabot,zap_scan,code_scanning]
+    needs: [run,dependabot,zap_scan,code_scanning]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
