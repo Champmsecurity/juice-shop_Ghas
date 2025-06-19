@@ -86,7 +86,7 @@ jobs:
   secret-scanning:
     runs-on: ubuntu-latest
     name: 🛡️ SAST-Secret Scanning
-    needs: build
+    needs: [build,codeql,semgrep]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -116,7 +116,7 @@ jobs:
   zap_scan:
     runs-on: ubuntu-latest
     name: 🌐 DAST-ZAP
-    needs: [deploy, run]
+    needs: deploy
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v4
@@ -146,19 +146,11 @@ jobs:
           name: zapreport
           path: zap_report.json
 
-# 🏃=== Deploy  PHASE ===
-  run:
-    runs-on: ubuntu-latest
-    name: 🏃 Run Phase
-    steps:
-      - name: Run Phase Step Placeholder
-        run: echo "Run your app here"
-
   # 📦 === SCA PHASE ===
   dependabot:
     runs-on: ubuntu-latest
     name: 📦 SCA-Dependabot
-    needs: [run,build]
+    needs: build
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
