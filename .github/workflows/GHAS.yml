@@ -150,7 +150,7 @@ jobs:
   dependabot:
     runs-on: ubuntu-latest
     name: 📦 SCA-Dependabot
-    needs: [build, zap_scan]
+    needs: [secret-scanning]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -177,7 +177,7 @@ jobs:
   combine-alerts:
     runs-on: ubuntu-latest
     name: 📊 Scanning Report
-    needs: [dependabot]
+    needs: [dependabot,zap_scan,code_scanning]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
