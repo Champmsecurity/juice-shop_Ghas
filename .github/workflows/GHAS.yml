@@ -27,7 +27,7 @@ jobs:
   codeql:
     runs-on: ubuntu-latest
     name: 🛡️ SAST-CodeQL
-    needs: code_scanning
+    needs: [code_scanning, secret-scanning]
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -41,7 +41,7 @@ jobs:
   semgrep:
     runs-on: ubuntu-latest
     name: 🛡️ SAST-Semgrep
-    needs: code_scanning
+    needs: [code_scanning,secret-scanning]
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -86,7 +86,7 @@ jobs:
   secret-scanning:
     runs-on: ubuntu-latest
     name: 🛡️ SAST-Secret Scanning
-    needs: [build,codeql,semgrep]
+    needs: build
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
