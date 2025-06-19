@@ -185,7 +185,7 @@ jobs:
   combine-alerts:
     runs-on: ubuntu-latest
     name: 📊 Scanning Report
-    needs: [dependabot,zap_scan,codeql,semgrep]
+    needs: [dependabot,zap_scan,secret-scanning,codeql,semgrep]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
