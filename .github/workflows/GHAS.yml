@@ -104,11 +104,19 @@ jobs:
           name: secret-scanning-alerts
           path: secret-scanning-alerts.json
 
+# 🚀 === Deploy  PHASE ===
+  deploy:
+    runs-on: ubuntu-latest
+    name: 🚀 Deploy
+    steps:
+      - name: Deploy Step Placeholder
+        run: echo "Deploy your app here"
+
   # 🌐 === DAST PHASE ===
   zap_scan:
     runs-on: ubuntu-latest
     name: 🌐 DAST-ZAP
-    needs: [secret-scanning, codeql, semgrep]
+    needs: deploy
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v4
@@ -142,7 +150,7 @@ jobs:
   dependabot:
     runs-on: ubuntu-latest
     name: 📦 SCA-Dependabot
-    needs: zap_scan
+    needs: [build, zap_scan]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
