@@ -199,7 +199,7 @@ jobs:
           name: zapreport
       - name: Combine All Alerts into One JSON
         run: |
-          timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          timestamp=$(TZ="Asia/Kolkata" date +"%d-%m-%Y %I:%M:%S %p")
           version="v1.${{ github.run_number }}"
           jq -n \
             --arg timestamp "$timestamp" \
