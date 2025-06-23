@@ -199,18 +199,16 @@ jobs:
           name: zapreport
       - name: Combine All Alerts into One JSON
         run: |
+          timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           jq -n \
+            --arg timestamp "$timestamp" \
             --slurpfile code code-scanning-alerts.json \
             --slurpfile secret secret-scanning-alerts.json \
             --slurpfile dependabot dependabot-alerts.json \
             --slurpfile zap zap_report.json \
-            '{code_scanning: $code[0], secret_scanning: $secret[0], dependabot: $dependabot[0], zap: $zap[0]}' \
+            '{published_at: $timestamp, code_scanning: $code[0], secret_scanning: $secret[0], dependabot: $dependabot[0], zap: $zap[0]}' \
             > all-alerts.json
-      - name: Upload Combined Alerts
-        uses: actions/upload-artifact@v4.6.2
-        with:
-          name: all-alerts
-          path: all-alerts.json
+            
       - name: Commit and push all-alerts.json
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
