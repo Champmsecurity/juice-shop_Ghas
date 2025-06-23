@@ -200,7 +200,7 @@ jobs:
       - name: Combine All Alerts into One JSON
         run: |
           timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-          version=$(git rev-parse --short HEAD)
+          version="v${{ "1."+ github.run_number }}"
           jq -n \
             --arg timestamp "$timestamp" \
             --arg version "$version" \
