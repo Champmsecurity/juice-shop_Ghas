@@ -200,13 +200,15 @@ jobs:
       - name: Combine All Alerts into One JSON
         run: |
           timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          version=$(git rev-parse --short HEAD)
           jq -n \
             --arg timestamp "$timestamp" \
+            --arg version "$version" \
             --slurpfile code code-scanning-alerts.json \
             --slurpfile secret secret-scanning-alerts.json \
             --slurpfile dependabot dependabot-alerts.json \
             --slurpfile zap zap_report.json \
-            '{published_at: $timestamp, code_scanning: $code[0], secret_scanning: $secret[0], dependabot: $dependabot[0], zap: $zap[0]}' \
+            '{published_at: $timestamp,version: $version,code_scanning: $code[0], secret_scanning: $secret[0], dependabot: $dependabot[0], zap: $zap[0]}' \
             > all-alerts.json
             
       - name: Commit and push all-alerts.json
