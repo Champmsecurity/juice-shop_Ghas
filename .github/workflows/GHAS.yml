@@ -27,7 +27,7 @@ jobs:
   codeql:
     runs-on: ubuntu-latest
     name: 🛡️ SAST-CodeQL
-    needs: code_scanning
+    needs: build
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -44,7 +44,7 @@ jobs:
   semgrep:
     runs-on: ubuntu-latest
     name: 🛡️ SAST-Semgrep
-    needs: code_scanning
+    needs: build
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
