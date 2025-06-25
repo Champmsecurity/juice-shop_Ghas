@@ -63,7 +63,7 @@ jobs:
   code_scanning:
     runs-on: ubuntu-latest
     name: 🛡️ SAST-Codescanning
-    needs: build
+    needs: [build,codeql,semgrep]
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
