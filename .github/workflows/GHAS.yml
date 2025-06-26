@@ -37,6 +37,11 @@ jobs:
           languages: javascript, python
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
+      - name: Upload CodeQL database zip
+        uses: actions/upload-artifact@v4.6.2
+        with:
+         name: results.sarif
+         path: /home/runner/work/juice-shop_Ghas/results/javascript.sarif
 
   semgrep:
     runs-on: ubuntu-latest
