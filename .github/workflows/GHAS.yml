@@ -37,18 +37,10 @@ jobs:
           languages: javascript, python
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
-      - name: Find SARIF files
-        run: |
-          find ${{ github.workspace }} -name "*.sarif"
-      - name: Upload CodeQL SARIF file(s)
-        uses: actions/upload-artifact@v4.6.2
-        with:
-          name: codeql-sarif
-          path: '**/*.sarif' 
-     
+
   semgrep:
     runs-on: ubuntu-latest
-    name: 🛡️ SASTSemgrep
+    name: 🛡️ SAST-Semgrep
     needs: build
     steps:
       - name: Checkout Repository
@@ -85,13 +77,12 @@ jobs:
             mv tmp.json code-scanning-alerts.json
             if [ "$count" -lt 100 ]; then break; fi
           done
-          
-          - name: Upload Code Scanning Alerts
-            uses: actions/upload-artifact@v4.6.2
-            with:
-              name: code-scanning-alerts
-              path: code-scanning-alerts.json
-  
+      - name: Upload Code Scanning Alerts
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          name: code-scanning-alerts
+          path: code-scanning-alerts.json
+
   secret-scanning:
     runs-on: ubuntu-latest
     name: 🛡️ SAST-Secret Scanning
