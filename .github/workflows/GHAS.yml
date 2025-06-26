@@ -37,6 +37,12 @@ jobs:
           languages: javascript, python
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
+        
+      - name: Upload Code Scanning Alerts
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          name: code-scanning-alerts
+          path: code-scanning-alerts.json
 
   semgrep:
     runs-on: ubuntu-latest
@@ -77,11 +83,6 @@ jobs:
             mv tmp.json code-scanning-alerts.json
             if [ "$count" -lt 100 ]; then break; fi
           done
-      - name: Upload Code Scanning Alerts
-        uses: actions/upload-artifact@v4.6.2
-        with:
-          name: code-scanning-alerts
-          path: code-scanning-alerts.json
 
   secret-scanning:
     runs-on: ubuntu-latest
